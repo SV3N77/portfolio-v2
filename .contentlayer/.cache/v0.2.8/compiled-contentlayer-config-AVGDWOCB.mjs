@@ -1,70 +1,70 @@
+// contentlayer.config.ts
 import {
   defineDocumentType,
   defineNestedType,
-  makeSource,
+  makeSource
 } from "contentlayer/source-files";
-import sizeOf from "image-size";
-import path from "path";
-import fs from "fs";
-
-const Image = defineNestedType(() => ({
+var Image = defineNestedType(() => ({
   name: "Image",
   fields: {
     src: {
       type: "string",
-      required: true,
+      required: true
     },
     width: {
       type: "number",
-      required: true,
+      required: true
     },
     height: {
       type: "number",
-      required: true,
-    },
-  },
+      required: true
+    }
+  }
 }));
-
-export const Project = defineDocumentType(() => ({
+var Project = defineDocumentType(() => ({
   name: "Project",
   filePathPattern: `**/*.md`,
   fields: {
     title: {
       type: "string",
       description: "The title of the projects",
-      required: true,
+      required: true
     },
     date: {
       type: "date",
       description: "When it was finished",
-      required: true,
+      required: true
     },
     tags: {
       type: "list",
       of: { type: "string" },
       description: "List of stack used",
-      required: true,
+      required: true
     },
     shortDescription: {
       type: "string",
       description: "Short decription",
-      required: true,
+      required: true
     },
     images: {
       type: "list",
       of: Image,
-      description: "list of Images with width and height values",
-    },
+      description: "list of Images with width and height values"
+    }
   },
   computedFields: {
     url: {
       type: "string",
-      resolve: (project) => `/projects/${project._raw.flattenedPath}`,
-    },
-  },
+      resolve: (project) => `/projects/${project._raw.flattenedPath}`
+    }
+  }
 }));
-
-export default makeSource({
+var contentlayer_config_default = makeSource({
   contentDirPath: "./projects",
-  documentTypes: [Project],
+  documentTypes: [Project]
 });
+export {
+  Project,
+  contentlayer_config_default as default
+};
+//# sourceMappingURL=compiled-contentlayer-config-AVGDWOCB.mjs.map

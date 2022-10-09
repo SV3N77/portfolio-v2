@@ -6,6 +6,5 @@ tags:
   - C#
   - Aesprite
   - Pixel Art
-shortDesription: A side-scrolling Metroidvania style game where the player controls an umbrella-wielding samurai.
-images: ""
+shortDescription: A side-scrolling Metroidvania style game where the player controls an umbrella-wielding samurai.
 ---

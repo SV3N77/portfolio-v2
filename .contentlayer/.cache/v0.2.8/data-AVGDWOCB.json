@@ -1,0 +1,62 @@
+{
+  "cacheItemsMap": {
+    "Portfolio v1.md": {
+      "document": {
+        "title": "Portfolio",
+        "date": "2022-01-30T00:00:00.000Z",
+        "tags": [
+          "HTML",
+          "CSS"
+        ],
+        "shortDescription": "A simple portfolio website.",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "Portfolio v1.md",
+        "_raw": {
+          "sourceFilePath": "Portfolio v1.md",
+          "sourceFileName": "Portfolio v1.md",
+          "sourceFileDir": ".",
+          "contentType": "markdown",
+          "flattenedPath": "Portfolio v1"
+        },
+        "type": "Project",
+        "url": "/projects/Portfolio v1"
+      },
+      "documentHash": "1665301107555",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "Umbrellurai.md": {
+      "document": {
+        "title": "Umbrellurai",
+        "date": "2021-06-21T00:00:00.000Z",
+        "tags": [
+          "Unity",
+          "C#",
+          "Aesprite",
+          "Pixel Art"
+        ],
+        "shortDescription": "A side-scrolling Metroidvania style game where the player controls an umbrella-wielding samurai.",
+        "body": {
+          "raw": "",
+          "html": ""
+        },
+        "_id": "Umbrellurai.md",
+        "_raw": {
+          "sourceFilePath": "Umbrellurai.md",
+          "sourceFileName": "Umbrellurai.md",
+          "sourceFileDir": ".",
+          "contentType": "markdown",
+          "flattenedPath": "Umbrellurai"
+        },
+        "type": "Project",
+        "url": "/projects/Umbrellurai"
+      },
+      "documentHash": "1665301130565",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    }
+  }
+}
