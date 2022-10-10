@@ -5,7 +5,7 @@ type ProjectPageProps = {
   project: Project;
 };
 
-export async function GetStaticPaths() {
+export async function getStaticPaths() {
   const paths = allProjects.map((project) => ({
     params: { slug: project._raw.flattenedPath },
   }));
@@ -20,7 +20,7 @@ export async function getStaticProps({ params }: GetStaticPropsContext) {
     (project) => project._raw.flattenedPath === params!.slug
   );
 
-  if (!project || !project.images) {
+  if (!project) {
     return { notFound: true };
   }
 
@@ -34,8 +34,8 @@ export async function getStaticProps({ params }: GetStaticPropsContext) {
 
 export default function ProjectPage({ project }: ProjectPageProps) {
   return (
-    <div className="my-20 flex flex-col gap-4">
-      <div>{project.title}</div>
+    <div className="container my-20 mx-auto flex flex-col gap-4">
+      <h1 className="text-3xl">{project.title}</h1>
     </div>
   );
 }

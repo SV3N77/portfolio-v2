@@ -103,15 +103,17 @@ function ProjectCards({
 }: Project) {
   return (
     <Link href={url}>
-      <div className="flex flex-col gap-4">
-        <div>{title}</div>
-        <div>{shortDescription}</div>
-        <div className="flex gap-2">
-          {tags.map((tag) => (
-            <span key={tag}>{tag}</span>
-          ))}
+      <a>
+        <div className="flex flex-col gap-4">
+          <div>{title}</div>
+          <div>{shortDescription}</div>
+          <div className="flex gap-2">
+            {tags.map((tag) => (
+              <span key={tag}>{tag}</span>
+            ))}
+          </div>
         </div>
-      </div>
+      </a>
     </Link>
   );
 }
