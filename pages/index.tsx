@@ -27,8 +27,8 @@ function Home({ projects }: PageProps) {
       <main className="container mx-auto flex flex-col items-center gap-4">
         <div className="my-1 sm:mx-4 md:mt-20 md:max-w-6xl">
           <div className="flex justify-between gap-36">
-            <div className="flex flex-col gap-4 text-left text-3xl">
-              <h1 className="font-semibold">Welcome</h1>
+            <div className="flex flex-col gap-4 text-left text-2xl">
+              <h1 className="text-3xl font-bold">Welcome</h1>
               <div className="flex gap-4">
                 <p>
                   Hi there! I'm Danny Jiang, a passionate web/game developer.
@@ -46,7 +46,7 @@ function Home({ projects }: PageProps) {
           </div>
 
           <div className="my-28 flex flex-col gap-8 text-lg">
-            <h1 className="text-3xl font-semibold">About</h1>
+            <h1 className="text-3xl font-bold">About</h1>
             <div className="flex items-center justify-between">
               <img
                 src="/images/gifs/Kenji-Idle.gif"
@@ -104,12 +104,14 @@ function ProjectCards({
   return (
     <Link href={url}>
       <a>
-        <div className="flex flex-col gap-4">
-          <div>{title}</div>
+        <div className="flex h-80 flex-col gap-2 overflow-hidden rounded-none p-2 text-sm shadow-lg">
+          <h1>{title}</h1>
           <div>{shortDescription}</div>
           <div className="flex gap-2">
             {tags.map((tag) => (
-              <span key={tag}>{tag}</span>
+              <span key={tag} className="">
+                {tag}
+              </span>
             ))}
           </div>
         </div>
