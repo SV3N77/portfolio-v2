@@ -1,6 +1,6 @@
 [
   {
-    "title": "Portfolio",
+    "title": "Portfolio v1",
     "date": "2022-01-30T00:00:00.000Z",
     "tags": [
       "HTML",
@@ -8,19 +8,19 @@
     ],
     "shortDescription": "A simple portfolio website.",
     "body": {
-      "raw": "",
-      "html": ""
+      "raw": "\nMy first portfolio website using HTML and CSS.\n",
+      "html": "<p>My first portfolio website using HTML and CSS.</p>"
     },
-    "_id": "Portfolio v1.md",
+    "_id": "portfolio-v1.md",
     "_raw": {
-      "sourceFilePath": "Portfolio v1.md",
-      "sourceFileName": "Portfolio v1.md",
+      "sourceFilePath": "portfolio-v1.md",
+      "sourceFileName": "portfolio-v1.md",
       "sourceFileDir": ".",
       "contentType": "markdown",
-      "flattenedPath": "Portfolio v1"
+      "flattenedPath": "portfolio-v1"
     },
     "type": "Project",
-    "url": "/projects/Portfolio v1"
+    "url": "/projects/portfolio-v1"
   },
   {
     "title": "Umbrellurai",
@@ -36,15 +36,15 @@
       "raw": "",
       "html": ""
     },
-    "_id": "Umbrellurai.md",
+    "_id": "umbrellurai.md",
     "_raw": {
-      "sourceFilePath": "Umbrellurai.md",
-      "sourceFileName": "Umbrellurai.md",
+      "sourceFilePath": "umbrellurai.md",
+      "sourceFileName": "umbrellurai.md",
       "sourceFileDir": ".",
       "contentType": "markdown",
-      "flattenedPath": "Umbrellurai"
+      "flattenedPath": "umbrellurai"
     },
     "type": "Project",
-    "url": "/projects/Umbrellurai"
+    "url": "/projects/umbrellurai"
   }
 ]

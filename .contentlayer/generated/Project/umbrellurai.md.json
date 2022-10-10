@@ -1,0 +1,25 @@
+{
+  "title": "Umbrellurai",
+  "date": "2021-06-21T00:00:00.000Z",
+  "tags": [
+    "Unity",
+    "C#",
+    "Aesprite",
+    "Pixel Art"
+  ],
+  "shortDescription": "A side-scrolling Metroidvania style game where the player controls an umbrella-wielding samurai.",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "umbrellurai.md",
+  "_raw": {
+    "sourceFilePath": "umbrellurai.md",
+    "sourceFileName": "umbrellurai.md",
+    "sourceFileDir": ".",
+    "contentType": "markdown",
+    "flattenedPath": "umbrellurai"
+  },
+  "type": "Project",
+  "url": "/projects/umbrellurai"
+}

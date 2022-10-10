@@ -1,6 +1,7 @@
 import { allProjects, Project } from "contentlayer/generated";
+import { GetStaticPropsContext } from "next";
 
-type ProjectPage = {
+type ProjectPageProps = {
   project: Project;
 };
 
@@ -14,8 +15,27 @@ export async function GetStaticPaths() {
   };
 }
 
-export async function getStaticProps() {}
+export async function getStaticProps({ params }: GetStaticPropsContext) {
+  const project = allProjects.find(
+    (project) => project._raw.flattenedPath === params!.slug
+  );
 
-export default function ProjectPage() {
-  return <div></div>;
+  if (!project || !project.images) {
+    return { notFound: true };
+  }
+
+  return {
+    props: {
+      key: project._id,
+      project,
+    },
+  };
+}
+
+export default function ProjectPage({ project }: ProjectPageProps) {
+  return (
+    <div className="my-20 flex flex-col gap-4">
+      <div>{project.title}</div>
+    </div>
+  );
 }
