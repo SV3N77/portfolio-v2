@@ -107,25 +107,27 @@ function ProjectCards({
   return (
     <Link href={url}>
       <a>
-        <div className="flex h-60 overflow-hidden rounded-lg text-sm shadow-lg ">
+        <div className="flex h-60 overflow-hidden rounded-lg bg-slate-100 text-sm shadow-lg">
           <img
             src={images?.at(0)?.src}
             alt={images?.at(0)?.src}
             className="aspect-square bg-cover"
           />
-          <div className="flex grow flex-col gap-2 p-3 text-xs">
-            <h1 className="text-xl">{title}</h1>
-            <div>{newDate}</div>
-            <div>{shortDescription}</div>
-            <div className="mt-4 flex gap-2">
-              {tags.map((tag) => (
-                <span
-                  key={tag}
-                  className="rounded-full bg-emerald-500 px-2 py-1 text-emerald-100"
-                >
-                  {tag}
-                </span>
-              ))}
+          <div className="flex grow flex-col gap-2">
+            <h1 className="bg-teal-200 p-2 text-xl font-semibold">{title}</h1>
+            <div className="flex flex-col gap-2 p-2 text-sm">
+              <div className="">{newDate}</div>
+              <div>{shortDescription}</div>
+              <div className="mt-4 flex gap-2 text-xs">
+                {tags.map((tag) => (
+                  <span
+                    key={tag}
+                    className="rounded-full bg-teal-500 px-2 py-1 text-teal-100"
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
             </div>
           </div>
         </div>
