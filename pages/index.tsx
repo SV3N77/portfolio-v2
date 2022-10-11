@@ -113,7 +113,7 @@ function ProjectCards({
             alt={images?.at(0)?.src}
             className="aspect-square bg-cover"
           />
-          <div className="flex flex-col gap-2 p-2 text-xs">
+          <div className="flex grow flex-col gap-2 p-3 text-xs">
             <h1 className="text-xl">{title}</h1>
             <div>{newDate}</div>
             <div>{shortDescription}</div>
