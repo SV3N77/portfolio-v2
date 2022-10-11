@@ -1,0 +1,25 @@
+{
+  "title": "Portfolio",
+  "date": "2022-06-21T00:00:00.000Z",
+  "tags": [
+    "NextJS",
+    "TailwindCSS",
+    "Content Layer",
+    "Vercel"
+  ],
+  "shortDescription": "A portfolio for all my work.",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "portfolio-v2.md",
+  "_raw": {
+    "sourceFilePath": "portfolio-v2.md",
+    "sourceFileName": "portfolio-v2.md",
+    "sourceFileDir": ".",
+    "contentType": "markdown",
+    "flattenedPath": "portfolio-v2"
+  },
+  "type": "Project",
+  "url": "/projects/portfolio-v2"
+}

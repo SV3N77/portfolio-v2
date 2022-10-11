@@ -1,0 +1,25 @@
+{
+  "title": "Simple Blog Site",
+  "date": "2022-07-21T00:00:00.000Z",
+  "tags": [
+    "NextJS",
+    "TailwindCSS",
+    "Firebase",
+    "Vercel"
+  ],
+  "shortDescription": "A simple blog app where you can add, edit and delete blog posts.",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "simple-blog-site.md",
+  "_raw": {
+    "sourceFilePath": "simple-blog-site.md",
+    "sourceFileName": "simple-blog-site.md",
+    "sourceFileDir": ".",
+    "contentType": "markdown",
+    "flattenedPath": "simple-blog-site"
+  },
+  "type": "Project",
+  "url": "/projects/simple-blog-site"
+}

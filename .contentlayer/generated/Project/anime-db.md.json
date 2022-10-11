@@ -1,0 +1,25 @@
+{
+  "title": "AnimeDB",
+  "date": "2022-09-20T00:00:00.000Z",
+  "tags": [
+    "NextJS",
+    "TailwindCSS",
+    "React Query",
+    "Typescript"
+  ],
+  "shortDescription": "An anime database where you can search anime and get details.",
+  "body": {
+    "raw": "",
+    "html": ""
+  },
+  "_id": "anime-db.md",
+  "_raw": {
+    "sourceFilePath": "anime-db.md",
+    "sourceFileName": "anime-db.md",
+    "sourceFileDir": ".",
+    "contentType": "markdown",
+    "flattenedPath": "anime-db"
+  },
+  "type": "Project",
+  "url": "/projects/anime-db"
+}

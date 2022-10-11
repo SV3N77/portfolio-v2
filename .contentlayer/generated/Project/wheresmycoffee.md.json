@@ -1,0 +1,24 @@
+{
+  "title": "Wheres My Coffee",
+  "date": "2020-06-30T00:00:00.000Z",
+  "tags": [
+    "Unity",
+    "C#",
+    "Pixel Art"
+  ],
+  "shortDescription": "Where's My Coffee? features a businessman who has an inseparable urge to acquire his morning coffee.",
+  "body": {
+    "raw": "\nMy first game developed with a team.\n",
+    "html": "<p>My first game developed with a team.</p>"
+  },
+  "_id": "wheresmycoffee.md",
+  "_raw": {
+    "sourceFilePath": "wheresmycoffee.md",
+    "sourceFileName": "wheresmycoffee.md",
+    "sourceFileDir": ".",
+    "contentType": "markdown",
+    "flattenedPath": "wheresmycoffee"
+  },
+  "type": "Project",
+  "url": "/projects/wheresmycoffee"
+}
