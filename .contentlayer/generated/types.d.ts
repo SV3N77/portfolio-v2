@@ -26,6 +26,8 @@ export type Project = {
   /** Markdown file body */
   body: Markdown
   url: string
+  /** list of Images with width and height values */
+  images: Image[]
 }  
 
 /** Nested types */

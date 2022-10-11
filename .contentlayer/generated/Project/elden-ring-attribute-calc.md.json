@@ -7,6 +7,13 @@
     "Typescript"
   ],
   "shortDescription": "A Elden ring attribute calculator.",
+  "images": [
+    {
+      "src": "/images/projects/elden-ring-attribute-calc/01.png",
+      "width": 2008,
+      "height": 1163
+    }
+  ],
   "body": {
     "raw": "",
     "html": ""

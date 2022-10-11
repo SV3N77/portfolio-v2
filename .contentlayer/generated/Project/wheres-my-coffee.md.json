@@ -7,6 +7,13 @@
     "Pixel Art"
   ],
   "shortDescription": "Where's My Coffee? features a businessman who has an inseparable urge to acquire his morning coffee.",
+  "images": [
+    {
+      "src": "/images/projects/wheres-my-coffee/01.png",
+      "width": 1260,
+      "height": 1000
+    }
+  ],
   "body": {
     "raw": "\nMy first game developed with a team.\n",
     "html": "<p>My first game developed with a team.</p>"

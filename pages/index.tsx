@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { allProjects, Project } from "contentlayer/generated";
-import { compareDesc } from "date-fns";
+import { compareDesc, format } from "date-fns";
 import Link from "next/link";
 
 type PageProps = {
@@ -25,7 +25,7 @@ function Home({ projects }: PageProps) {
       </Head>
 
       <main className="container mx-auto flex flex-col items-center gap-4">
-        <div className="my-1 sm:mx-4 md:mt-20 md:max-w-6xl">
+        <div className="my-1 sm:mx-4 md:mt-20 md:max-w-7xl">
           <div className="flex justify-between gap-36">
             <div className="flex flex-col gap-4 text-left text-2xl">
               <h1 className="text-3xl font-bold">Welcome</h1>
@@ -102,21 +102,31 @@ function ProjectCards({
   date,
   images,
 }: Project) {
+  const newDate = format(new Date(date), "MMM yy");
+
   return (
     <Link href={url}>
       <a>
-        <div className="flex h-80 flex-col gap-2 overflow-hidden rounded-none p-2 text-sm shadow-lg">
-          <h1 className="text-xl">{title}</h1>
-          <div>{shortDescription}</div>
-          <div className="flex gap-2">
-            {tags.map((tag) => (
-              <span
-                key={tag}
-                className="rounded-full bg-emerald-500 px-2 py-1 text-emerald-100"
-              >
-                {tag}
-              </span>
-            ))}
+        <div className="flex h-60 overflow-hidden rounded-lg text-sm shadow-lg ">
+          <img
+            src={images?.at(0)?.src}
+            alt={images?.at(0)?.src}
+            className="aspect-square bg-cover"
+          />
+          <div className="flex flex-col gap-2 p-2 text-xs">
+            <h1 className="text-xl">{title}</h1>
+            <div>{newDate}</div>
+            <div>{shortDescription}</div>
+            <div className="mt-4 flex gap-2">
+              {tags.map((tag) => (
+                <span
+                  key={tag}
+                  className="rounded-full bg-emerald-500 px-2 py-1 text-emerald-100"
+                >
+                  {tag}
+                </span>
+              ))}
+            </div>
           </div>
         </div>
       </a>
