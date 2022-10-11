@@ -8,7 +8,13 @@
     "Vercel"
   ],
   "shortDescription": "A portfolio for all my work.",
-  "images": [],
+  "images": [
+    {
+      "src": "/images/projects/portfolio-v2/01.png",
+      "width": 1968,
+      "height": 1167
+    }
+  ],
   "body": {
     "raw": "",
     "html": ""

@@ -7,5 +7,5 @@ tags:
   - React Query
   - Typescript
   - Vercel
-shortDescription: An anime database where you can search anime and get details.
+shortDescription: An anime database where you can search for anime and get details with related franchises.
 ---

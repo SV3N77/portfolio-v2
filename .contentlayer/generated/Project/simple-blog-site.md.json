@@ -7,8 +7,14 @@
     "Firebase",
     "Vercel"
   ],
-  "shortDescription": "A simple blog app where you can add, edit and delete blog posts.",
-  "images": [],
+  "shortDescription": "A simple blog app where you can add, edit and delete blog posts with images.",
+  "images": [
+    {
+      "src": "/images/projects/simple-blog-site/01.png",
+      "width": 2004,
+      "height": 1158
+    }
+  ],
   "body": {
     "raw": "",
     "html": ""

@@ -8,7 +8,13 @@
     "Pixel Art"
   ],
   "shortDescription": "A side-scrolling Metroidvania style game where the player controls an umbrella-wielding samurai.",
-  "images": [],
+  "images": [
+    {
+      "src": "/images/projects/umbrellurai/01.png",
+      "width": 1260,
+      "height": 1000
+    }
+  ],
   "body": {
     "raw": "",
     "html": ""

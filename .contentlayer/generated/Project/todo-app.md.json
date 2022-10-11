@@ -9,7 +9,13 @@
     "HeadlessUI"
   ],
   "shortDescription": "A simple todo app where you can add, edit and delete todos.",
-  "images": [],
+  "images": [
+    {
+      "src": "/images/projects/todo-app/01.png",
+      "width": 1892,
+      "height": 1120
+    }
+  ],
   "body": {
     "raw": "",
     "html": ""

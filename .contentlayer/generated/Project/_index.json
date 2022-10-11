@@ -9,8 +9,14 @@
       "Typescript",
       "Vercel"
     ],
-    "shortDescription": "An anime database where you can search anime and get details.",
-    "images": [],
+    "shortDescription": "An anime database where you can search for anime and get details with related franchises.",
+    "images": [
+      {
+        "src": "/images/projects/anime-db/01.png",
+        "width": 1968,
+        "height": 1168
+      }
+    ],
     "body": {
       "raw": "",
       "html": ""
@@ -34,7 +40,7 @@
       "TailwindCSS",
       "Typescript"
     ],
-    "shortDescription": "A Elden ring attribute calculator.",
+    "shortDescription": "An Elden ring attribute calculator.",
     "images": [
       {
         "src": "/images/projects/elden-ring-attribute-calc/01.png",
@@ -67,7 +73,13 @@
       "Vercel"
     ],
     "shortDescription": "A portfolio for all my work.",
-    "images": [],
+    "images": [
+      {
+        "src": "/images/projects/portfolio-v2/01.png",
+        "width": 1968,
+        "height": 1167
+      }
+    ],
     "body": {
       "raw": "",
       "html": ""
@@ -92,8 +104,14 @@
       "Firebase",
       "Vercel"
     ],
-    "shortDescription": "A simple blog app where you can add, edit and delete blog posts.",
-    "images": [],
+    "shortDescription": "A simple blog app where you can add, edit and delete blog posts with images.",
+    "images": [
+      {
+        "src": "/images/projects/simple-blog-site/01.png",
+        "width": 2004,
+        "height": 1158
+      }
+    ],
     "body": {
       "raw": "",
       "html": ""
@@ -120,7 +138,13 @@
       "HeadlessUI"
     ],
     "shortDescription": "A simple todo app where you can add, edit and delete todos.",
-    "images": [],
+    "images": [
+      {
+        "src": "/images/projects/todo-app/01.png",
+        "width": 1892,
+        "height": 1120
+      }
+    ],
     "body": {
       "raw": "",
       "html": ""
@@ -146,7 +170,13 @@
       "Pixel Art"
     ],
     "shortDescription": "A side-scrolling Metroidvania style game where the player controls an umbrella-wielding samurai.",
-    "images": [],
+    "images": [
+      {
+        "src": "/images/projects/umbrellurai/01.png",
+        "width": 1260,
+        "height": 1000
+      }
+    ],
     "body": {
       "raw": "",
       "html": ""

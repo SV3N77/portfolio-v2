@@ -6,5 +6,5 @@ tags:
   - TailwindCSS
   - Firebase
   - Vercel
-shortDescription: A simple blog app where you can add, edit and delete blog posts.
+shortDescription: A simple blog app where you can add, edit and delete blog posts with images.
 ---

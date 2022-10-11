@@ -5,5 +5,5 @@ tags:
   - NextJS
   - TailwindCSS
   - Typescript
-shortDescription: A Elden ring attribute calculator.
+shortDescription: An Elden ring attribute calculator.
 ---
