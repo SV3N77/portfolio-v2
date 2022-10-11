@@ -70,8 +70,9 @@ function Home({ projects }: PageProps) {
               />
               <p className="md:max-w-2xl">
                 I enjoy learning new things and solving problems. I'm always
-                looking for new ways to improve my coding skills. I really enjoy
-                making the website look asethetic as possible.
+                looking for new ways to improve my coding skills. I am
+                interested in front-end web development. I really enjoy making
+                the website look asethetic as possible.
               </p>
             </div>
           </div>
@@ -108,11 +109,12 @@ function ProjectCards({
     <Link href={url}>
       <a>
         <div className="flex h-60 overflow-hidden rounded-lg bg-slate-100 text-sm shadow-lg">
-          <img
-            src={images?.at(0)?.src}
-            alt={images?.at(0)?.src}
-            className="aspect-square bg-cover"
-          />
+          <div className="aspect-video md:aspect-square md:w-auto">
+            <img
+              src={images?.at(0)?.src}
+              className="aspect-square h-full w-full bg-cover"
+            />
+          </div>
           <div className="flex grow flex-col gap-2">
             <h1 className="bg-teal-200 p-2 text-xl font-semibold">{title}</h1>
             <div className="flex flex-col gap-2 p-2 text-sm">

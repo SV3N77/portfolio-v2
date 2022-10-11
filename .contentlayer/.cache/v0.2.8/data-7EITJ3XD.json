@@ -51,8 +51,8 @@
         "images": [
           {
             "src": "/images/projects/elden-ring-attribute-calc/01.png",
-            "width": 2008,
-            "height": 1163
+            "width": 1001,
+            "height": 692
           }
         ],
         "body": {
@@ -70,7 +70,7 @@
         "type": "Project",
         "url": "/projects/elden-ring-attribute-calc"
       },
-      "documentHash": "1665462604529",
+      "documentHash": "1665463654349",
       "hasWarnings": false,
       "documentTypeName": "Project"
     },
@@ -118,6 +118,7 @@
         "tags": [
           "NextJS",
           "TailwindCSS",
+          "React Query",
           "Firebase",
           "Vercel"
         ],
@@ -144,7 +145,7 @@
         "type": "Project",
         "url": "/projects/simple-blog-site"
       },
-      "documentHash": "1665462621869",
+      "documentHash": "1665463929329",
       "hasWarnings": false,
       "documentTypeName": "Project"
     },

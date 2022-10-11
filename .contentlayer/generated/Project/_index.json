@@ -44,8 +44,8 @@
     "images": [
       {
         "src": "/images/projects/elden-ring-attribute-calc/01.png",
-        "width": 2008,
-        "height": 1163
+        "width": 1001,
+        "height": 692
       }
     ],
     "body": {
@@ -101,6 +101,7 @@
     "tags": [
       "NextJS",
       "TailwindCSS",
+      "React Query",
       "Firebase",
       "Vercel"
     ],
