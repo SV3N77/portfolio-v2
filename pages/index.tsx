@@ -76,7 +76,8 @@ function Home({ projects }: PageProps) {
             </div>
           </div>
 
-          <section className="my-10 flex flex-col pb-20">
+          <section className="my-10 flex flex-col gap-4 pb-20">
+            <h1 className="my-10 text-3xl font-bold">Projects</h1>
             <div className="grid gap-4 lg:grid-cols-2">
               {projects.map((project) => (
                 <ProjectCards key={project._id} {...project} />
@@ -105,11 +106,14 @@ function ProjectCards({
     <Link href={url}>
       <a>
         <div className="flex h-80 flex-col gap-2 overflow-hidden rounded-none p-2 text-sm shadow-lg">
-          <h1>{title}</h1>
+          <h1 className="text-xl">{title}</h1>
           <div>{shortDescription}</div>
           <div className="flex gap-2">
             {tags.map((tag) => (
-              <span key={tag} className="">
+              <span
+                key={tag}
+                className="rounded-full bg-emerald-500 px-2 py-1 text-emerald-100"
+              >
                 {tag}
               </span>
             ))}

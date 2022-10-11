@@ -101,7 +101,7 @@
   },
   {
     "title": "Portfolio",
-    "date": "2022-06-21T00:00:00.000Z",
+    "date": "2022-10-21T00:00:00.000Z",
     "tags": [
       "NextJS",
       "TailwindCSS",
@@ -155,7 +155,8 @@
       "NextJS",
       "TailwindCSS",
       "React Query",
-      "Typescript"
+      "Typescript",
+      "Vercel"
     ],
     "shortDescription": "An anime database where you can search anime and get details.",
     "body": {

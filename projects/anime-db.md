@@ -6,5 +6,6 @@ tags:
   - TailwindCSS
   - React Query
   - Typescript
+  - Vercel
 shortDescription: An anime database where you can search anime and get details.
 ---
