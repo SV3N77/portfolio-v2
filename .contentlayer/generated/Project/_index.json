@@ -147,8 +147,8 @@
       }
     ],
     "body": {
-      "raw": "",
-      "html": ""
+      "raw": "\nMy first React app\n",
+      "html": "<p>My first React app</p>"
     },
     "_id": "todo-app.md",
     "_raw": {
@@ -192,36 +192,5 @@
     },
     "type": "Project",
     "url": "/projects/umbrellurai"
-  },
-  {
-    "title": "Wheres My Coffee?",
-    "date": "2020-06-30T00:00:00.000Z",
-    "tags": [
-      "Unity",
-      "C#",
-      "Pixel Art"
-    ],
-    "shortDescription": "Where's My Coffee? features a businessman who has an inseparable urge to acquire his morning coffee.",
-    "images": [
-      {
-        "src": "/images/projects/wheres-my-coffee/01.png",
-        "width": 1260,
-        "height": 1000
-      }
-    ],
-    "body": {
-      "raw": "\nMy first game developed with a team.\n",
-      "html": "<p>My first game developed with a team.</p>"
-    },
-    "_id": "wheres-my-coffee.md",
-    "_raw": {
-      "sourceFilePath": "wheres-my-coffee.md",
-      "sourceFileName": "wheres-my-coffee.md",
-      "sourceFileDir": ".",
-      "contentType": "markdown",
-      "flattenedPath": "wheres-my-coffee"
-    },
-    "type": "Project",
-    "url": "/projects/wheres-my-coffee"
   }
 ]

@@ -17,8 +17,8 @@
     }
   ],
   "body": {
-    "raw": "",
-    "html": ""
+    "raw": "\nMy first React app\n",
+    "html": "<p>My first React app</p>"
   },
   "_id": "todo-app.md",
   "_raw": {

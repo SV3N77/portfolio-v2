@@ -5,6 +5,7 @@
 @layer base {
   html {
     background-color: theme("colors.zinc.50");
+    scroll-behavior: smooth;
   }
 }
 

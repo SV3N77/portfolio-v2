@@ -6,6 +6,5 @@ import portfolioV2Md from './portfolio-v2.md.json' assert { type: 'json' }
 import simpleBlogSiteMd from './simple-blog-site.md.json' assert { type: 'json' }
 import todoAppMd from './todo-app.md.json' assert { type: 'json' }
 import umbrelluraiMd from './umbrellurai.md.json' assert { type: 'json' }
-import wheresMyCoffeeMd from './wheres-my-coffee.md.json' assert { type: 'json' }
 
-export const allProjects = [animeDbMd, eldenRingAttributeCalcMd, portfolioV2Md, simpleBlogSiteMd, todoAppMd, umbrelluraiMd, wheresMyCoffeeMd]
+export const allProjects = [animeDbMd, eldenRingAttributeCalcMd, portfolioV2Md, simpleBlogSiteMd, todoAppMd, umbrelluraiMd]

@@ -47,7 +47,7 @@ function Home({ projects }: PageProps) {
 
           <div className="my-28 flex flex-col gap-8 text-lg">
             <h1 className="text-3xl font-bold">About</h1>
-            <div className="flex items-center justify-between">
+            <div className="flex items-center justify-around">
               <img
                 src="/images/gifs/Kenji-Idle.gif"
                 alt="game"
@@ -62,7 +62,7 @@ function Home({ projects }: PageProps) {
                 have done.
               </p>
             </div>
-            <div className="flex items-center justify-between">
+            <div className="flex items-center justify-around">
               <img
                 src="/images/gifs/WebDev.gif"
                 alt="web"
@@ -112,7 +112,7 @@ function ProjectCards({
           <div className="aspect-video md:aspect-square md:w-auto">
             <img
               src={images?.at(0)?.src}
-              className="aspect-square h-full w-full bg-cover"
+              className="aspect-square h-full w-full object-cover"
             />
           </div>
           <div className="flex grow flex-col gap-2">
@@ -120,7 +120,7 @@ function ProjectCards({
             <div className="flex flex-col gap-2 p-2 text-sm">
               <div className="">{newDate}</div>
               <div>{shortDescription}</div>
-              <div className="mt-4 flex gap-2 text-xs">
+              <div className="mt-4 flex flex-wrap gap-2 text-xs">
                 {tags.map((tag) => (
                   <span
                     key={tag}
