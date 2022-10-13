@@ -21,6 +21,8 @@ export type Project = {
   tags: string[]
   /** Short decription */
   shortDescription: string
+  /** List of Links related to the project */
+  links: Link[]
   /** list of Images with width and height values */
   images?: Image[] | undefined
   /** Markdown file body */
@@ -40,6 +42,16 @@ export type Image = {
   width: number
   height: number
 
+}
+
+export type Link = {
+  /** File path relative to `contentDirPath` */
+  _id: string
+  _raw: Local.RawDocumentData
+  type: 'Link'
+  url: string
+  github: boolean
+
 }  
 
 /** Helper types */
@@ -50,8 +62,8 @@ export type AllTypeNames = DocumentTypeNames | NestedTypeNames
 export type DocumentTypes = Project
 export type DocumentTypeNames = 'Project'
 
-export type NestedTypes = Image
-export type NestedTypeNames = 'Image'
+export type NestedTypes = Image | Link
+export type NestedTypeNames = 'Image' | 'Link'
 
 
 export interface ContentlayerGenTypes {
@@ -74,6 +86,7 @@ export type DocumentTypeMap = {
 
 export type NestedTypeMap = {
   Image: Image
+  Link: Link
 }
 
  

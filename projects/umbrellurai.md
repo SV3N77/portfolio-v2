@@ -7,4 +7,7 @@ tags:
   - Aesprite
   - Pixel Art
 shortDescription: A side-scrolling Metroidvania style game where the player controls an umbrella-wielding samurai.
+links:
+  - url: "https://sveen77.itch.io/umbrellurai"
+    github: false
 ---

@@ -8,6 +8,14 @@
     "Vercel"
   ],
   "shortDescription": "A portfolio for all my work.",
+  "links": [
+    {
+      "url": "https://github.com/SV3N77/portfolio-v2",
+      "github": true,
+      "type": "Link",
+      "_raw": {}
+    }
+  ],
   "images": [
     {
       "src": "/images/projects/portfolio-v2/01.png",

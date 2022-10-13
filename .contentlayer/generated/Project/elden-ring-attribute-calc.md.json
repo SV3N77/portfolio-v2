@@ -7,6 +7,14 @@
     "Typescript"
   ],
   "shortDescription": "An Elden ring attribute calculator.",
+  "links": [
+    {
+      "url": "https://github.com/SV3N77/attributecalc",
+      "github": true,
+      "type": "Link",
+      "_raw": {}
+    }
+  ],
   "images": [
     {
       "src": "/images/projects/elden-ring-attribute-calc/01.png",

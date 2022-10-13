@@ -9,6 +9,14 @@
     "HeadlessUI"
   ],
   "shortDescription": "A simple todo app where you can add, edit and delete todos.",
+  "links": [
+    {
+      "url": "https://github.com/SV3N77/todolist",
+      "github": true,
+      "type": "Link",
+      "_raw": {}
+    }
+  ],
   "images": [
     {
       "src": "/images/projects/todo-app/01.png",

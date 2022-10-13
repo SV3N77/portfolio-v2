@@ -10,6 +10,14 @@
       "Vercel"
     ],
     "shortDescription": "An anime database where you can search for anime and get details with related franchises.",
+    "links": [
+      {
+        "url": "https://github.com/SV3N77/animedatabase",
+        "github": true,
+        "type": "Link",
+        "_raw": {}
+      }
+    ],
     "images": [
       {
         "src": "/images/projects/anime-db/01.png",
@@ -41,6 +49,14 @@
       "Typescript"
     ],
     "shortDescription": "An Elden ring attribute calculator.",
+    "links": [
+      {
+        "url": "https://github.com/SV3N77/attributecalc",
+        "github": true,
+        "type": "Link",
+        "_raw": {}
+      }
+    ],
     "images": [
       {
         "src": "/images/projects/elden-ring-attribute-calc/01.png",
@@ -73,6 +89,14 @@
       "Vercel"
     ],
     "shortDescription": "A portfolio for all my work.",
+    "links": [
+      {
+        "url": "https://github.com/SV3N77/portfolio-v2",
+        "github": true,
+        "type": "Link",
+        "_raw": {}
+      }
+    ],
     "images": [
       {
         "src": "/images/projects/portfolio-v2/01.png",
@@ -106,6 +130,14 @@
       "Vercel"
     ],
     "shortDescription": "A simple blog app where you can add, edit and delete blog posts with images.",
+    "links": [
+      {
+        "url": "https://github.com/SV3N77/simpleblogsite",
+        "github": true,
+        "type": "Link",
+        "_raw": {}
+      }
+    ],
     "images": [
       {
         "src": "/images/projects/simple-blog-site/01.png",
@@ -139,6 +171,14 @@
       "HeadlessUI"
     ],
     "shortDescription": "A simple todo app where you can add, edit and delete todos.",
+    "links": [
+      {
+        "url": "https://github.com/SV3N77/todolist",
+        "github": true,
+        "type": "Link",
+        "_raw": {}
+      }
+    ],
     "images": [
       {
         "src": "/images/projects/todo-app/01.png",
@@ -171,6 +211,14 @@
       "Pixel Art"
     ],
     "shortDescription": "A side-scrolling Metroidvania style game where the player controls an umbrella-wielding samurai.",
+    "links": [
+      {
+        "url": "https://sveen77.itch.io/umbrellurai",
+        "github": false,
+        "type": "Link",
+        "_raw": {}
+      }
+    ],
     "images": [
       {
         "src": "/images/projects/umbrellurai/01.png",

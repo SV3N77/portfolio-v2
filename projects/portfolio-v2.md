@@ -7,4 +7,7 @@ tags:
   - Content Layer
   - Vercel
 shortDescription: A portfolio for all my work.
+links:
+  - url: "https://github.com/SV3N77/portfolio-v2"
+    github: true
 ---
