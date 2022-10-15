@@ -64,7 +64,7 @@ type LinkProps = {
 function LinkComponent({ link }: LinkProps) {
   return (
     <a href={link.url}>
-      <span className="rounded-full bg-teal-500 px-3 py-2 text-teal-100 underline">
+      <span className="rounded-full bg-teal-500 px-2 py-1 text-teal-100 underline">
         {link.url.replace(/^https?:\/\//, "")}
       </span>
     </a>
