@@ -5,6 +5,7 @@ tags:
   - NextJS
   - TailwindCSS
   - Content Layer
+  - Embla Carousel
   - Vercel
 shortDescription: A portfolio for all my work.
 links:

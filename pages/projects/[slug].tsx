@@ -1,3 +1,4 @@
+import Carousel from "components/Carousel";
 import { allProjects, Link, Project } from "contentlayer/generated";
 import { GetStaticPropsContext } from "next";
 
@@ -35,18 +36,33 @@ export async function getStaticProps({ params }: GetStaticPropsContext) {
 export default function ProjectPage({ project }: ProjectPageProps) {
   return (
     <div className="container my-20 mx-auto flex flex-col gap-4">
-      <div>
-        <img src={project?.images?.at(0)?.src} />
+      <div className="xl:w-10/12">
+        {project.images && project.images.length > 0 && (
+          <Carousel images={project.images} />
+        )}
       </div>
 
-      <div className="my-10 flex flex-col gap-5 rounded-lg bg-slate-100 p-4 shadow-lg">
-        <h1 className="text-3xl">{project.title}</h1>
+      <div className="my-10 flex flex-col gap-4 rounded-lg bg-slate-100 p-8 shadow-lg">
+        <h1 className="text-3xl font-semibold">{project.title}</h1>
         {project.links.map((link) => (
           <LinkComponent key={link.url} link={link} />
         ))}
-        <section>
+        <div className="flex flex-col">
+          <div className="text-3xl font-semibold">Tech Stack</div>
+          <div className="mt-4 flex flex-wrap gap-2 text-xs">
+            {project.tags.map((tag) => (
+              <span
+                key={tag}
+                className="rounded-full bg-teal-500 px-2 py-1 text-teal-100"
+              >
+                {tag}
+              </span>
+            ))}
+          </div>
+        </div>
+        <section className="">
           <div
-            className="prose lg:prose-xl mb-16"
+            className="prose mb-16 lg:prose-xl"
             dangerouslySetInnerHTML={{ __html: project.body.html }}
           ></div>
         </section>

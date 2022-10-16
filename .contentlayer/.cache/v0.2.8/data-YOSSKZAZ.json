@@ -98,6 +98,7 @@
           "NextJS",
           "TailwindCSS",
           "Content Layer",
+          "Embla Carousel",
           "Vercel"
         ],
         "shortDescription": "A portfolio for all my work.",
@@ -131,7 +132,7 @@
         "type": "Project",
         "url": "/projects/portfolio-v2"
       },
-      "documentHash": "1665637363152",
+      "documentHash": "1665961916505",
       "hasWarnings": false,
       "documentTypeName": "Project"
     },
@@ -187,9 +188,10 @@
         "date": "2022-06-21T00:00:00.000Z",
         "tags": [
           "HTML",
-          "TailwindCSS",
           "React",
+          "TailwindCSS",
           "Express",
+          "React Query",
           "HeadlessUI"
         ],
         "shortDescription": "A simple todo app where you can add, edit and delete todos.",
@@ -209,8 +211,8 @@
           }
         ],
         "body": {
-          "raw": "\nMy first React app\n",
-          "html": "<p>My first React app</p>"
+          "raw": "\nTodo app was my first leap into learning and utilising more modern libraries for my web development journey.\n\n### Features\n\n- Add Todos\n- Delete Todos\n- Edit Todos\n- Refetch updated Todos\n\nTodo app was a great introduction into using more modern libraries in web development. In this project I had\nlearnt how to fetch data from an API and display that data using react-query and its ability to refrsh data.\nI learnt to utilise an express backend with a json file as the database. I also used HeadlessUI to create the\nadd task modal.\n",
+          "html": "<p>Todo app was my first leap into learning and utilising more modern libraries for my web development journey.</p>\n<h3>Features</h3>\n<ul>\n<li>Add Todos</li>\n<li>Delete Todos</li>\n<li>Edit Todos</li>\n<li>Refetch updated Todos</li>\n</ul>\n<p>Todo app was a great introduction into using more modern libraries in web development. In this project I had\nlearnt how to fetch data from an API and display that data using react-query and its ability to refrsh data.\nI learnt to utilise an express backend with a json file as the database. I also used HeadlessUI to create the\nadd task modal.</p>"
         },
         "_id": "todo-app.md",
         "_raw": {
@@ -223,7 +225,7 @@
         "type": "Project",
         "url": "/projects/todo-app"
       },
-      "documentHash": "1665795030503",
+      "documentHash": "1665962256195",
       "hasWarnings": false,
       "documentTypeName": "Project"
     },
@@ -251,11 +253,16 @@
             "src": "/images/projects/umbrellurai/01.png",
             "width": 1260,
             "height": 1000
+          },
+          {
+            "src": "/images/projects/umbrellurai/02.png",
+            "width": 768,
+            "height": 768
           }
         ],
         "body": {
-          "raw": "",
-          "html": ""
+          "raw": "\nUmbrellurai is a side-scrolling Metroidvania style game where the player controls an umbrella-wielding samurai. It was\ncreated for 'Game Studio 1' subject at UTS with a small team of 4.\n\n#### For this project I was tasked in:\n\n- #### Overseeing the project\n  Setting up sprints, meetings and proofing the game design/code.\n- #### Game Design\n  Helped with the design of the game, such as the levels, art and mechanics.\n- #### Game Art\n  I designed all of the game art and animated each of the characters.\n\nUmbrellurai was an amazing project which further extended my game development and project management knowledge. My role\nin this project was the game design lead. In this project we had developed a great pace utilising the Agile methodology\nduring development. I\n",
+          "html": "<p>Umbrellurai is a side-scrolling Metroidvania style game where the player controls an umbrella-wielding samurai. It was\ncreated for 'Game Studio 1' subject at UTS with a small team of 4.</p>\n<h4>For this project I was tasked in:</h4>\n<ul>\n<li>\n<h4>Overseeing the project</h4>\nSetting up sprints, meetings and proofing the game design/code.</li>\n<li>\n<h4>Game Design</h4>\nHelped with the design of the game, such as the levels, art and mechanics.</li>\n<li>\n<h4>Game Art</h4>\nI designed all of the game art and animated each of the characters.</li>\n</ul>\n<p>Umbrellurai was an amazing project which further extended my game development and project management knowledge. My role\nin this project was the game design lead. In this project we had developed a great pace utilising the Agile methodology\nduring development. I</p>"
         },
         "_id": "umbrellurai.md",
         "_raw": {
@@ -268,7 +275,7 @@
         "type": "Project",
         "url": "/projects/umbrellurai"
       },
-      "documentHash": "1665637432392",
+      "documentHash": "1665963934555",
       "hasWarnings": false,
       "documentTypeName": "Project"
     }

@@ -30,7 +30,7 @@ function Home({ projects }: PageProps) {
             <div className="flex flex-col gap-4 text-left text-2xl">
               <h1 className="text-3xl font-bold">Welcome</h1>
               <div className="flex flex-col gap-4">
-                <p className="">
+                <p>
                   Hi there! I'm Danny Jiang, a passionate web/game developer.
                   <br />
                   I'm a graduate at the Unversity of Technology Sydney studied a
