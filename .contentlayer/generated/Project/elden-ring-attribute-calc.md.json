@@ -18,8 +18,23 @@
   "images": [
     {
       "src": "/images/projects/elden-ring-attribute-calc/01.png",
+      "width": 1972,
+      "height": 1174
+    },
+    {
+      "src": "/images/projects/elden-ring-attribute-calc/02.png",
       "width": 1001,
       "height": 692
+    },
+    {
+      "src": "/images/projects/elden-ring-attribute-calc/03.png",
+      "width": 1972,
+      "height": 1180
+    },
+    {
+      "src": "/images/projects/elden-ring-attribute-calc/04.png",
+      "width": 1957,
+      "height": 1174
     }
   ],
   "body": {
