@@ -5,6 +5,8 @@
     "NextJS",
     "TailwindCSS",
     "React Query",
+    "react-intersection-observer",
+    "date-fns",
     "Typescript",
     "Vercel"
   ],
@@ -20,13 +22,33 @@
   "images": [
     {
       "src": "/images/projects/anime-db/01.png",
-      "width": 1968,
+      "width": 1962,
       "height": 1168
+    },
+    {
+      "src": "/images/projects/anime-db/02.png",
+      "width": 1964,
+      "height": 1165
+    },
+    {
+      "src": "/images/projects/anime-db/03.png",
+      "width": 1957,
+      "height": 1167
+    },
+    {
+      "src": "/images/projects/anime-db/04.png",
+      "width": 1960,
+      "height": 1167
+    },
+    {
+      "src": "/images/projects/anime-db/05.png",
+      "width": 1965,
+      "height": 1170
     }
   ],
   "body": {
-    "raw": "",
-    "html": ""
+    "raw": "\nAnimeDB was one my most recent project, I worked upon, using my experience from my previous projects and learning to use a public API.\nUtilising the public Kistu.io API, this project displays the various details of anime and manga.\n\n### Features\n\n- Search for anime titles\n- Shows most trending anime\n- Click into anime to show more details\n- Shows related franchises of anime/manga\n- Shows all characters in anime/manga\n\nAnimeDB was an amazing project to do as this project allowed me to learn to use a public API. In this project I used react-query and its ability\nto query cache so that if the same query is searched then it doesn't need to fetch another time. I also implemented infinite scroll with both react-query\nand NextJS getStaticProps so that if you scroll down to the bottom it will load more results. I used react-intersection-observer to check if the page is at\nthe bottom.\n\nThe AnimeDB was an amazing project which further enhanced my web development knowledge and was enjoyable to create. I am most proud of this project\nas it shows the accumalation of my knowledge in web development.\n",
+    "html": "<p>AnimeDB was one my most recent project, I worked upon, using my experience from my previous projects and learning to use a public API.\nUtilising the public Kistu.io API, this project displays the various details of anime and manga.</p>\n<h3>Features</h3>\n<ul>\n<li>Search for anime titles</li>\n<li>Shows most trending anime</li>\n<li>Click into anime to show more details</li>\n<li>Shows related franchises of anime/manga</li>\n<li>Shows all characters in anime/manga</li>\n</ul>\n<p>AnimeDB was an amazing project to do as this project allowed me to learn to use a public API. In this project I used react-query and its ability\nto query cache so that if the same query is searched then it doesn't need to fetch another time. I also implemented infinite scroll with both react-query\nand NextJS getStaticProps so that if you scroll down to the bottom it will load more results. I used react-intersection-observer to check if the page is at\nthe bottom.</p>\n<p>The AnimeDB was an amazing project which further enhanced my web development knowledge and was enjoyable to create. I am most proud of this project\nas it shows the accumalation of my knowledge in web development.</p>"
   },
   "_id": "anime-db.md",
   "_raw": {

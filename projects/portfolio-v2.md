@@ -6,6 +6,7 @@ tags:
   - TailwindCSS
   - Content Layer
   - Embla Carousel
+  - Date-fns
   - Vercel
 shortDescription: A portfolio for all my work.
 links:

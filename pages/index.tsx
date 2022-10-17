@@ -37,7 +37,7 @@ function Home({ projects }: PageProps) {
                   I'm a graduate at the Unversity of Technology Sydney studied a
                   Bachelor of Science in Games Development.
                 </p>
-                <div className="flex gap-4 text-lg">
+                <div className="mt-14 flex gap-4 text-lg">
                   <Link href="https://github.com/SV3N77">
                     <a>
                       <div className="flex items-center gap-1 rounded-full bg-black px-2 py-1 text-white">

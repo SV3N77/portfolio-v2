@@ -19,4 +19,5 @@ Elden Ring attribute calculator was my first introduction to using typescript wi
 - Addition/Subtraction of attributes
 - Shows how many runes are needed to level
 
-In this project I learnt to use typescript in conjunction with NextJS.
+In this project I learnt to use typescript in conjunction with NextJS. In this project I used a json file to
+store each class and its starting values.
