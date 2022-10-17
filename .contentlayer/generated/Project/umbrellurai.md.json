@@ -24,8 +24,13 @@
     },
     {
       "src": "/images/projects/umbrellurai/02.png",
-      "width": 768,
-      "height": 768
+      "width": 1280,
+      "height": 1280
+    },
+    {
+      "src": "/images/projects/umbrellurai/03.png",
+      "width": 2560,
+      "height": 1440
     }
   ],
   "body": {

@@ -144,6 +144,16 @@
         "src": "/images/projects/simple-blog-site/01.png",
         "width": 2004,
         "height": 1158
+      },
+      {
+        "src": "/images/projects/simple-blog-site/02.png",
+        "width": 1966,
+        "height": 1168
+      },
+      {
+        "src": "/images/projects/simple-blog-site/03.png",
+        "width": 1950,
+        "height": 1166
       }
     ],
     "body": {
@@ -184,8 +194,18 @@
     "images": [
       {
         "src": "/images/projects/todo-app/01.png",
-        "width": 1892,
-        "height": 1120
+        "width": 1969,
+        "height": 1168
+      },
+      {
+        "src": "/images/projects/todo-app/02.png",
+        "width": 1971,
+        "height": 1165
+      },
+      {
+        "src": "/images/projects/todo-app/03.png",
+        "width": 1967,
+        "height": 1170
       }
     ],
     "body": {
@@ -229,8 +249,13 @@
       },
       {
         "src": "/images/projects/umbrellurai/02.png",
-        "width": 768,
-        "height": 768
+        "width": 1280,
+        "height": 1280
+      },
+      {
+        "src": "/images/projects/umbrellurai/03.png",
+        "width": 2560,
+        "height": 1440
       }
     ],
     "body": {

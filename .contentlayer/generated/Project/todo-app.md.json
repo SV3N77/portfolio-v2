@@ -21,8 +21,18 @@
   "images": [
     {
       "src": "/images/projects/todo-app/01.png",
-      "width": 1892,
-      "height": 1120
+      "width": 1969,
+      "height": 1168
+    },
+    {
+      "src": "/images/projects/todo-app/02.png",
+      "width": 1971,
+      "height": 1165
+    },
+    {
+      "src": "/images/projects/todo-app/03.png",
+      "width": 1967,
+      "height": 1170
     }
   ],
   "body": {

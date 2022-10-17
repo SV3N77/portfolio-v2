@@ -161,6 +161,16 @@
             "src": "/images/projects/simple-blog-site/01.png",
             "width": 2004,
             "height": 1158
+          },
+          {
+            "src": "/images/projects/simple-blog-site/02.png",
+            "width": 1966,
+            "height": 1168
+          },
+          {
+            "src": "/images/projects/simple-blog-site/03.png",
+            "width": 1950,
+            "height": 1166
           }
         ],
         "body": {
@@ -178,7 +188,7 @@
         "type": "Project",
         "url": "/projects/simple-blog-site"
       },
-      "documentHash": "1665637378382",
+      "documentHash": "1665965472965",
       "hasWarnings": false,
       "documentTypeName": "Project"
     },
@@ -206,8 +216,18 @@
         "images": [
           {
             "src": "/images/projects/todo-app/01.png",
-            "width": 1892,
-            "height": 1120
+            "width": 1969,
+            "height": 1168
+          },
+          {
+            "src": "/images/projects/todo-app/02.png",
+            "width": 1971,
+            "height": 1165
+          },
+          {
+            "src": "/images/projects/todo-app/03.png",
+            "width": 1967,
+            "height": 1170
           }
         ],
         "body": {
@@ -225,7 +245,7 @@
         "type": "Project",
         "url": "/projects/todo-app"
       },
-      "documentHash": "1665962256195",
+      "documentHash": "1665964792255",
       "hasWarnings": false,
       "documentTypeName": "Project"
     },
@@ -256,8 +276,13 @@
           },
           {
             "src": "/images/projects/umbrellurai/02.png",
-            "width": 768,
-            "height": 768
+            "width": 1280,
+            "height": 1280
+          },
+          {
+            "src": "/images/projects/umbrellurai/03.png",
+            "width": 2560,
+            "height": 1440
           }
         ],
         "body": {
@@ -275,7 +300,7 @@
         "type": "Project",
         "url": "/projects/umbrellurai"
       },
-      "documentHash": "1665963934555",
+      "documentHash": "1665964408175",
       "hasWarnings": false,
       "documentTypeName": "Project"
     }

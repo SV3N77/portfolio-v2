@@ -35,14 +35,14 @@ export async function getStaticProps({ params }: GetStaticPropsContext) {
 
 export default function ProjectPage({ project }: ProjectPageProps) {
   return (
-    <div className="container my-20 mx-auto flex flex-col gap-4">
+    <div className="container my-20 mx-auto flex flex-col items-center gap-4">
       <div className="xl:w-10/12">
         {project.images && project.images.length > 0 && (
           <Carousel images={project.images} />
         )}
       </div>
 
-      <div className="my-10 flex flex-col gap-4 rounded-lg bg-slate-100 p-8 shadow-lg">
+      <div className="my-10 flex flex-col gap-4 rounded-lg bg-slate-100 p-10 shadow-lg marker:mb-6 md:px-8 xl:w-10/12">
         <h1 className="text-3xl font-semibold">{project.title}</h1>
         {project.links.map((link) => (
           <LinkComponent key={link.url} link={link} />
