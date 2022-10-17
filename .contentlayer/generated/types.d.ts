@@ -29,7 +29,7 @@ export type Project = {
   body: Markdown
   url: string
   /** list of Images with width and height values */
-  images: Image[]
+  images: nested
 }  
 
 /** Nested types */

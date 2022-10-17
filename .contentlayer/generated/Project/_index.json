@@ -137,6 +137,16 @@
         "src": "/images/projects/portfolio-v2/01.png",
         "width": 1966,
         "height": 1165
+      },
+      {
+        "src": "/images/projects/portfolio-v2/02.png",
+        "width": 1962,
+        "height": 1171
+      },
+      {
+        "src": "/images/projects/portfolio-v2/03.png",
+        "width": 391,
+        "height": 838
       }
     ],
     "body": {
