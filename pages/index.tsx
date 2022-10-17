@@ -139,6 +139,7 @@ function ProjectCards({
           <div className="aspect-video md:aspect-square md:w-auto">
             <img
               src={images?.at(0)?.src}
+              alt={images?.at(0)?._id}
               className="aspect-square h-full w-full object-cover"
             />
           </div>
