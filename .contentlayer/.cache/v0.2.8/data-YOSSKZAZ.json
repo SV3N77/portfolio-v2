@@ -189,8 +189,8 @@
           }
         ],
         "body": {
-          "raw": "",
-          "html": ""
+          "raw": "\nThis simple blog site was my introduction to learning and utilising more modern web development frameworks and techniques.\nIt was my first time using NextJS front-end and firebase backend.\n\n### Features\n\n- Add Posts with images\n- Delete Posts\n- Edit Posts\n- Refetch updated Posts\n",
+          "html": "<p>This simple blog site was my introduction to learning and utilising more modern web development frameworks and techniques.\nIt was my first time using NextJS front-end and firebase backend.</p>\n<h3>Features</h3>\n<ul>\n<li>Add Posts with images</li>\n<li>Delete Posts</li>\n<li>Edit Posts</li>\n<li>Refetch updated Posts</li>\n</ul>"
         },
         "_id": "simple-blog-site.md",
         "_raw": {
@@ -203,7 +203,7 @@
         "type": "Project",
         "url": "/projects/simple-blog-site"
       },
-      "documentHash": "1665965472965",
+      "documentHash": "1665969844885",
       "hasWarnings": false,
       "documentTypeName": "Project"
     },
@@ -316,8 +316,8 @@
           }
         ],
         "body": {
-          "raw": "\nUmbrellurai is a side-scrolling Metroidvania style game where the player controls an umbrella-wielding samurai. It was\ncreated for 'Game Studio 1' subject at UTS with a small team of 4.\n\n#### For this project I was tasked in:\n\n- #### Overseeing the project\n  Setting up sprints, meetings and proofing the game design/code.\n- #### Game Design\n  Helped with the design of the game, such as the levels, art and mechanics.\n- #### Game Art\n  I designed all of the game art and animated each of the characters.\n\nUmbrellurai was an amazing project which further extended my game development and project management knowledge. My role\nin this project was the game design lead. In this project we had developed a great pace utilising the Agile methodology\nduring development. I\n",
-          "html": "<p>Umbrellurai is a side-scrolling Metroidvania style game where the player controls an umbrella-wielding samurai. It was\ncreated for 'Game Studio 1' subject at UTS with a small team of 4.</p>\n<h4>For this project I was tasked in:</h4>\n<ul>\n<li>\n<h4>Overseeing the project</h4>\nSetting up sprints, meetings and proofing the game design/code.</li>\n<li>\n<h4>Game Design</h4>\nHelped with the design of the game, such as the levels, art and mechanics.</li>\n<li>\n<h4>Game Art</h4>\nI designed all of the game art and animated each of the characters.</li>\n</ul>\n<p>Umbrellurai was an amazing project which further extended my game development and project management knowledge. My role\nin this project was the game design lead. In this project we had developed a great pace utilising the Agile methodology\nduring development. I</p>"
+          "raw": "\nUmbrellurai is a side-scrolling Metroidvania style game where the player controls an umbrella-wielding samurai. It was\ncreated for 'Game Studio 1' subject at UTS with a small team of 4.\n\n#### For this project I was tasked in:\n\n- #### Overseeing the project\n  Setting up sprints, meetings and proofing the game design/code.\n- #### Game Design\n  Helped with the design of the game, such as the levels, art and mechanics.\n- #### Game Art\n  I made/designed all of the game art and animated each of the characters.\n\nUmbrellurai was an amazing project which further extended my game development and project management knowledge. My role\nin this project was the game design lead. In this project we had developed a great pace utilising the Agile methodology\nduring development. I made and designed all of the game art using Aesprite which is a tool for making pixel art and animations.\n\nIn addition to the techinical knowledge, Umbrellurai had helped me develop my interpersonal skills with communicating with my\nteam. I was proud of this project and what we had achieved in making the game.\n",
+          "html": "<p>Umbrellurai is a side-scrolling Metroidvania style game where the player controls an umbrella-wielding samurai. It was\ncreated for 'Game Studio 1' subject at UTS with a small team of 4.</p>\n<h4>For this project I was tasked in:</h4>\n<ul>\n<li>\n<h4>Overseeing the project</h4>\nSetting up sprints, meetings and proofing the game design/code.</li>\n<li>\n<h4>Game Design</h4>\nHelped with the design of the game, such as the levels, art and mechanics.</li>\n<li>\n<h4>Game Art</h4>\nI made/designed all of the game art and animated each of the characters.</li>\n</ul>\n<p>Umbrellurai was an amazing project which further extended my game development and project management knowledge. My role\nin this project was the game design lead. In this project we had developed a great pace utilising the Agile methodology\nduring development. I made and designed all of the game art using Aesprite which is a tool for making pixel art and animations.</p>\n<p>In addition to the techinical knowledge, Umbrellurai had helped me develop my interpersonal skills with communicating with my\nteam. I was proud of this project and what we had achieved in making the game.</p>"
         },
         "_id": "umbrellurai.md",
         "_raw": {
@@ -330,7 +330,7 @@
         "type": "Project",
         "url": "/projects/umbrellurai"
       },
-      "documentHash": "1665966183925",
+      "documentHash": "1665969456715",
       "hasWarnings": false,
       "documentTypeName": "Project"
     }

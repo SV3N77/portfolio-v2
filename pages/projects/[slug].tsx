@@ -42,7 +42,7 @@ export default function ProjectPage({ project }: ProjectPageProps) {
         )}
       </div>
 
-      <div className="my-10 flex flex-col gap-4 rounded-lg bg-slate-100 p-10 shadow-lg marker:mb-6 md:px-8 xl:w-10/12">
+      <div className="my-10 flex flex-col gap-4 rounded-lg bg-indigo-100 p-10 shadow-lg marker:mb-6 md:px-8 xl:w-10/12">
         <h1 className="text-3xl font-semibold">{project.title}</h1>
         {project.links.map((link) => (
           <LinkComponent key={link.url} link={link} />
