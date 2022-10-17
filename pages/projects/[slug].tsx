@@ -35,7 +35,7 @@ export async function getStaticProps({ params }: GetStaticPropsContext) {
 
 export default function ProjectPage({ project }: ProjectPageProps) {
   return (
-    <div className="container my-20 flex flex-col items-center gap-4 px-2 sm:mx-auto">
+    <div className="container my-20 flex flex-col items-center gap-4 px-5 sm:mx-auto">
       <div className="xl:w-10/12">
         {project.images && project.images.length > 0 && (
           <Carousel images={project.images} />
@@ -49,11 +49,11 @@ export default function ProjectPage({ project }: ProjectPageProps) {
         ))}
         <div className="flex flex-col">
           <div className="text-2xl font-semibold md:text-4xl">Tech Stack</div>
-          <div className="mt-4 flex flex-wrap gap-2 text-xs md:text-lg">
+          <div className="mt-4 flex flex-wrap gap-2 text-xs md:text-sm">
             {project.tags.map((tag) => (
               <span
                 key={tag}
-                className="rounded-full bg-teal-500 px-2 py-1 text-teal-100"
+                className="rounded-full bg-teal-500 px-3 py-2 text-teal-100"
               >
                 {tag}
               </span>
@@ -80,7 +80,7 @@ type LinkProps = {
 function LinkComponent({ link }: LinkProps) {
   return (
     <a href={link.url}>
-      <span className="rounded-full bg-teal-500 px-2 py-1 text-xs text-teal-100 underline md:text-lg">
+      <span className="md:text-md rounded-full bg-teal-500 px-3 py-2 text-xs text-teal-100 underline">
         {link.url.replace(/^https?:\/\//, "")}
       </span>
     </a>

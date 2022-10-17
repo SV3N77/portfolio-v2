@@ -27,7 +27,7 @@ function Home({ projects }: PageProps) {
       </Head>
 
       <main className="container mx-auto flex flex-col items-center gap-4">
-        <div className="my-1 mx-2 sm:mx-4 md:mt-20">
+        <div className="my-1 px-5 sm:mx-4 md:mt-20">
           <div className="flex flex-col-reverse justify-between gap-36 md:flex-row">
             <div className="flex flex-col gap-4 text-center text-sm md:text-left md:text-2xl">
               <h1 className="text-3xl font-bold md:text-5xl">Welcome</h1>
@@ -105,7 +105,7 @@ function Home({ projects }: PageProps) {
 
           <section className="my-10 flex flex-col gap-4 pb-20 text-center md:text-left">
             <h1 className="my-10 text-3xl font-bold md:text-5xl">Projects</h1>
-            <div className="grid gap-4 lg:grid-cols-2">
+            <div className="grid gap-8 lg:grid-cols-2">
               {projects.map((project) => (
                 <ProjectCards key={project._id} {...project} />
               ))}
@@ -142,8 +142,8 @@ function ProjectCards({
             />
           </div>
           <div className="flex grow flex-col gap-2">
-            <h1 className="bg-teal-200 p-2 text-xl font-semibold">{title}</h1>
-            <div className="flex flex-col gap-2 p-2 text-sm">
+            <h1 className="bg-teal-200 p-4 text-xl font-semibold ">{title}</h1>
+            <div className="flex flex-col gap-2 p-4 text-sm">
               <div className="">{newDate}</div>
               <div>{shortDescription}</div>
               <div className="mt-4 flex flex-wrap gap-2 text-xs">
