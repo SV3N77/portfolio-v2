@@ -5,8 +5,6 @@
     "NextJS",
     "TailwindCSS",
     "Content Layer",
-    "Embla Carousel",
-    "Date-fns",
     "Vercel"
   ],
   "shortDescription": "A portfolio for all my work.",
@@ -21,13 +19,13 @@
   "images": [
     {
       "src": "/images/projects/portfolio-v2/01.png",
-      "width": 1968,
-      "height": 1167
+      "width": 1966,
+      "height": 1165
     }
   ],
   "body": {
-    "raw": "",
-    "html": ""
+    "raw": "\nThis portfolio is an updated version of my previous portfolio using a more modern framework. It was an amazing\nexperience using content layer to input data to my projects. To add a new project to this would be simple to\njust make a new markdown file. This is a major upgrade from my previous project which used HTML and CSS.\n",
+    "html": "<p>This portfolio is an updated version of my previous portfolio using a more modern framework. It was an amazing\nexperience using content layer to input data to my projects. To add a new project to this would be simple to\njust make a new markdown file. This is a major upgrade from my previous project which used HTML and CSS.</p>"
   },
   "_id": "portfolio-v2.md",
   "_raw": {

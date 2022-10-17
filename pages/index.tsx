@@ -2,6 +2,7 @@ import Head from "next/head";
 import { allProjects, Project } from "contentlayer/generated";
 import { compareDesc, format } from "date-fns";
 import { FaGithubAlt, FaLinkedin } from "react-icons/fa";
+import Image from "next/image";
 import Link from "next/link";
 
 type PageProps = {
@@ -26,21 +27,21 @@ function Home({ projects }: PageProps) {
       </Head>
 
       <main className="container mx-auto flex flex-col items-center gap-4">
-        <div className="my-1 sm:mx-4 md:mt-20 md:max-w-7xl">
-          <div className="flex justify-between gap-36">
-            <div className="flex flex-col gap-4 text-left text-2xl">
-              <h1 className="text-3xl font-bold">Welcome</h1>
-              <div className="flex flex-col gap-4">
+        <div className="my-1 mx-2 sm:mx-4 md:mt-20">
+          <div className="flex flex-col-reverse justify-between gap-36 md:flex-row">
+            <div className="flex flex-col gap-4 text-center text-sm md:text-left md:text-2xl">
+              <h1 className="text-3xl font-bold md:text-5xl">Welcome</h1>
+              <div className="flex flex-col items-center gap-4 md:items-start">
                 <p>
                   Hi there! I'm Danny Jiang, a passionate web/game developer.
                   <br />
                   I'm a graduate at the Unversity of Technology Sydney studied a
                   Bachelor of Science in Games Development.
                 </p>
-                <div className="mt-14 flex gap-4 text-lg">
+                <div className="mt-14 flex flex-col gap-4 text-lg md:flex-row">
                   <Link href="https://github.com/SV3N77">
                     <a>
-                      <div className="flex items-center gap-1 rounded-full bg-black px-2 py-1 text-white">
+                      <div className="flex items-center justify-center gap-1 rounded-full bg-black px-3 py-2 text-white">
                         <FaGithubAlt />
                         Github
                       </div>
@@ -48,7 +49,7 @@ function Home({ projects }: PageProps) {
                   </Link>
                   <Link href="www.linkedin.com/in/danny-jiang2">
                     <a>
-                      <div className="flex items-center gap-1 rounded-full bg-[#0072b1] px-2 py-1 text-white ">
+                      <div className="flex items-center justify-center gap-1 rounded-full bg-[#0072b1] px-3 py-2 text-white ">
                         <FaLinkedin />
                         Linkedin
                       </div>
@@ -57,16 +58,22 @@ function Home({ projects }: PageProps) {
                 </div>
               </div>
             </div>
-            <img
-              src="/images/gifs/Computer.gif"
-              alt="computer"
-              className="aspect-square bg-cover"
-            />
+            <div className="m-auto w-60 drop-shadow-md md:m-0 md:w-72 xl:mr-40 xl:w-auto">
+              <Image
+                src="/images/gifs/Computer.gif"
+                alt="computer"
+                className="aspect-square"
+                priority
+                width={400}
+                height={400}
+                layout="intrinsic"
+              />
+            </div>
           </div>
 
-          <div className="my-28 flex flex-col gap-8 text-lg">
-            <h1 className="text-3xl font-bold">About</h1>
-            <div className="flex items-center justify-around">
+          <div className="my-28 flex flex-col gap-8 text-center text-sm md:text-left md:text-lg">
+            <h1 className="text-3xl font-bold md:text-5xl">About</h1>
+            <div className="flex flex-col items-center justify-around md:flex-row">
               <img
                 src="/images/gifs/Kenji-Idle.gif"
                 alt="game"
@@ -81,7 +88,7 @@ function Home({ projects }: PageProps) {
                 have done.
               </p>
             </div>
-            <div className="flex items-center justify-around">
+            <div className="flex flex-col items-center justify-around md:flex-row">
               <img
                 src="/images/gifs/WebDev.gif"
                 alt="web"
@@ -96,10 +103,8 @@ function Home({ projects }: PageProps) {
             </div>
           </div>
 
-          <section className="my-10 flex flex-col gap-4 pb-20">
-            <h1 className="my-10 text-3xl font-bold" id="Projects">
-              Projects
-            </h1>
+          <section className="my-10 flex flex-col gap-4 pb-20 text-center md:text-left">
+            <h1 className="my-10 text-3xl font-bold md:text-5xl">Projects</h1>
             <div className="grid gap-4 lg:grid-cols-2">
               {projects.map((project) => (
                 <ProjectCards key={project._id} {...project} />
@@ -124,12 +129,12 @@ function ProjectCards({
   date,
   images,
 }: Project) {
-  const newDate = format(new Date(date), "MMM yy");
+  const newDate = format(new Date(date), "MMM yyyy");
 
   return (
     <Link href={url}>
       <a>
-        <div className="flex h-60 overflow-hidden rounded-lg bg-indigo-100 text-sm shadow-lg">
+        <div className="flex flex-col overflow-hidden rounded-lg bg-indigo-100 text-sm shadow-lg  md:h-60 md:flex-row">
           <div className="aspect-video md:aspect-square md:w-auto">
             <img
               src={images?.at(0)?.src}

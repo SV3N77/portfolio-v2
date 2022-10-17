@@ -3,7 +3,7 @@ import Link from "next/link";
 function Header() {
   return (
     <header className="bg-indigo-400 p-5 ">
-      <nav className="container mx-auto flex items-center justify-center gap-4 text-lg text-white">
+      <nav className="container mx-auto flex flex-col items-center justify-center gap-4 text-lg text-white md:flex-row">
         <Link href="/">
           <a>
             <img src="/images/icons/Ramen.ico" alt="Ramen" />
