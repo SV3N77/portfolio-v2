@@ -33,10 +33,11 @@ function Home({ projects }: PageProps) {
               <h1 className="text-3xl font-bold md:text-5xl">Welcome</h1>
               <div className="flex flex-col items-center gap-4 md:items-start">
                 <p>
-                  Hi there! I'm Danny Jiang, a passionate web/game developer.
+                  Hi there! I&apos;m Danny Jiang, a passionate web/game
+                  developer.
                   <br />
-                  I'm a graduate at the Unversity of Technology Sydney studied a
-                  Bachelor of Science in Games Development.
+                  I&apos;m a graduate at the Unversity of Technology Sydney
+                  studied a Bachelor of Science in Games Development.
                 </p>
                 <div className="mt-14 flex flex-col gap-4 text-lg md:flex-row">
                   <Link href="https://github.com/SV3N77">
@@ -81,11 +82,11 @@ function Home({ projects }: PageProps) {
               />
 
               <p className="md:max-w-2xl">
-                I enjoy playing video games and learning new things. I'm always
-                looking for new ways to improve my game development skills. I am
-                mostly interested in the design aspect of game development and
-                have been improving these skills with some of the projects i
-                have done.
+                I enjoy playing video games and learning new things. I&apos;m
+                always looking for new ways to improve my game development
+                skills. I&apos;m mostly interested in the design aspect of game
+                development and have been improving these skills with some of
+                the projects I have done.
               </p>
             </div>
             <div className="flex flex-col items-center justify-around md:flex-row">
@@ -95,10 +96,10 @@ function Home({ projects }: PageProps) {
                 className="aspect-square"
               />
               <p className="md:max-w-2xl">
-                I enjoy learning new things and solving problems. I'm always
-                looking for new ways to improve my coding skills. I am
-                interested in front-end web development. I really enjoy making
-                the website look asethetic as possible.
+                I enjoy learning new things and solving problems. I&apos;m
+                always looking for new ways to improve my coding skills.
+                I&apos;am interested in front-end web development. I really
+                enjoy making the website look asethetic as possible.
               </p>
             </div>
           </div>
