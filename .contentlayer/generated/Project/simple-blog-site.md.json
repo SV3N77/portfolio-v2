@@ -20,8 +20,8 @@
   "images": [
     {
       "src": "/images/projects/simple-blog-site/01.png",
-      "width": 2004,
-      "height": 1158
+      "width": 1952,
+      "height": 1167
     },
     {
       "src": "/images/projects/simple-blog-site/02.png",
@@ -35,8 +35,8 @@
     }
   ],
   "body": {
-    "raw": "\nThis simple blog site was my introduction to learning and utilising more modern web development frameworks and techniques.\nIt was my first time using NextJS front-end and firebase backend.\n\n### Features\n\n- Add Posts with images\n- Delete Posts\n- Edit Posts\n- Refetch updated Posts\n",
-    "html": "<p>This simple blog site was my introduction to learning and utilising more modern web development frameworks and techniques.\nIt was my first time using NextJS front-end and firebase backend.</p>\n<h3>Features</h3>\n<ul>\n<li>Add Posts with images</li>\n<li>Delete Posts</li>\n<li>Edit Posts</li>\n<li>Refetch updated Posts</li>\n</ul>"
+    "raw": "\nThis simple blog site was my introduction to learning and utilising more modern web development frameworks and techniques.\nIt was my first time using NextJS front-end and firebase backend.\n\n### Features\n\n- Add Posts with images\n- Delete Posts\n- Edit Posts\n- Refetch updated Posts\n\nThis blog site was an amazing project for me to learn to develop using a more modern web development framework. I learnt\nhow to file upload to a firebase database and fetch the data to display it on the home page. I used react-query to fetch\nthe data from the firebase database since there is the ability to invalidate data and refectch every couple of seconds.\n",
+    "html": "<p>This simple blog site was my introduction to learning and utilising more modern web development frameworks and techniques.\nIt was my first time using NextJS front-end and firebase backend.</p>\n<h3>Features</h3>\n<ul>\n<li>Add Posts with images</li>\n<li>Delete Posts</li>\n<li>Edit Posts</li>\n<li>Refetch updated Posts</li>\n</ul>\n<p>This blog site was an amazing project for me to learn to develop using a more modern web development framework. I learnt\nhow to file upload to a firebase database and fetch the data to display it on the home page. I used react-query to fetch\nthe data from the firebase database since there is the ability to invalidate data and refectch every couple of seconds.</p>"
   },
   "_id": "simple-blog-site.md",
   "_raw": {

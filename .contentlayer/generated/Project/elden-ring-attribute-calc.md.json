@@ -38,8 +38,8 @@
     }
   ],
   "body": {
-    "raw": "",
-    "html": ""
+    "raw": "\nElden Ring attribute calculator was my first introduction to using typescript with NextJS and TailwindCSS.\n\n### Features\n\n- Change classes\n- Addition/Subtraction of attributes\n- Shows how many runes are needed to level\n\nIn this project I learnt to use typescript in conjunction with NextJS.\n",
+    "html": "<p>Elden Ring attribute calculator was my first introduction to using typescript with NextJS and TailwindCSS.</p>\n<h3>Features</h3>\n<ul>\n<li>Change classes</li>\n<li>Addition/Subtraction of attributes</li>\n<li>Shows how many runes are needed to level</li>\n</ul>\n<p>In this project I learnt to use typescript in conjunction with NextJS.</p>"
   },
   "_id": "elden-ring-attribute-calc.md",
   "_raw": {

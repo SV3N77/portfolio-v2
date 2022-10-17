@@ -24,4 +24,5 @@ It was my first time using NextJS front-end and firebase backend.
 - Refetch updated Posts
 
 This blog site was an amazing project for me to learn to develop using a more modern web development framework. I learnt
-how to file upload to a firebase database.
+how to file upload to a firebase database and fetch the data to display it on the home page. I used react-query to fetch
+the data from the firebase database since there is the ability to invalidate data and refectch every couple of seconds.

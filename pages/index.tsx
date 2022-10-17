@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { allProjects, Project } from "contentlayer/generated";
 import { compareDesc, format } from "date-fns";
+import { FaGithubAlt, FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
 
 type PageProps = {
@@ -39,16 +40,18 @@ function Home({ projects }: PageProps) {
                 <div className="flex gap-4 text-lg">
                   <Link href="https://github.com/SV3N77">
                     <a>
-                      <span className="rounded-full bg-black px-2 py-1 text-white">
+                      <div className="flex items-center gap-1 rounded-full bg-black px-2 py-1 text-white">
+                        <FaGithubAlt />
                         Github
-                      </span>
+                      </div>
                     </a>
                   </Link>
                   <Link href="www.linkedin.com/in/danny-jiang2">
                     <a>
-                      <span className="rounded-full bg-[#0072b1] px-2 py-1 text-white">
+                      <div className="flex items-center gap-1 rounded-full bg-[#0072b1] px-2 py-1 text-white ">
+                        <FaLinkedin />
                         Linkedin
-                      </span>
+                      </div>
                     </a>
                   </Link>
                 </div>
@@ -126,7 +129,7 @@ function ProjectCards({
   return (
     <Link href={url}>
       <a>
-        <div className="flex h-60 overflow-hidden rounded-lg bg-slate-100 text-sm shadow-lg">
+        <div className="flex h-60 overflow-hidden rounded-lg bg-indigo-100 text-sm shadow-lg">
           <div className="aspect-video md:aspect-square md:w-auto">
             <img
               src={images?.at(0)?.src}
@@ -140,12 +143,12 @@ function ProjectCards({
               <div>{shortDescription}</div>
               <div className="mt-4 flex flex-wrap gap-2 text-xs">
                 {tags.map((tag) => (
-                  <span
+                  <div
                     key={tag}
                     className="rounded-full bg-teal-500 px-2 py-1 text-teal-100"
                   >
                     {tag}
-                  </span>
+                  </div>
                 ))}
               </div>
             </div>
