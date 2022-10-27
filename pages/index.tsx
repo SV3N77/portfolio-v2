@@ -30,7 +30,9 @@ function Home({ projects }: PageProps) {
         <div className="my-1 px-5 sm:mx-4 md:mt-20">
           <div className="flex flex-col-reverse justify-between gap-36 md:flex-row">
             <div className="flex flex-col gap-4 text-center text-sm md:text-left md:text-2xl">
-              <h1 className="text-3xl font-bold md:text-5xl">Welcome</h1>
+              <h1 className="text-3xl font-bold text-indigo-600 md:text-5xl">
+                Welcome
+              </h1>
               <div className="flex flex-col items-center gap-4 md:items-start">
                 <p>
                   Hi there! I&apos;m Danny Jiang, a passionate web/game
@@ -73,7 +75,9 @@ function Home({ projects }: PageProps) {
           </div>
 
           <div className="my-28 flex flex-col gap-8 text-center text-sm md:text-left md:text-lg">
-            <h1 className="text-3xl font-bold md:text-5xl">About</h1>
+            <h1 className="text-3xl font-bold text-indigo-600 md:text-5xl">
+              About
+            </h1>
             <div className="flex flex-col items-center justify-around md:flex-row">
               <img
                 src="/images/gifs/Kenji-Idle.gif"
@@ -98,14 +102,16 @@ function Home({ projects }: PageProps) {
               <p className="md:max-w-2xl">
                 I enjoy learning new things and solving problems. I&apos;m
                 always looking for new ways to improve my coding skills.
-                I&apos;am interested in front-end web development. I really
-                enjoy making the website look asethetic as possible.
+                I&apos;m interested in front-end web development. I really enjoy
+                making the website look asethetic as possible.
               </p>
             </div>
           </div>
 
           <section className="my-10 flex flex-col gap-4 pb-20 text-center md:text-left">
-            <h1 className="my-10 text-3xl font-bold md:text-5xl">Projects</h1>
+            <h1 className="my-10 text-3xl font-bold text-indigo-600 md:text-5xl">
+              Projects
+            </h1>
             <div className="grid gap-8 lg:grid-cols-2">
               {projects.map((project) => (
                 <ProjectCards key={project._id} {...project} />

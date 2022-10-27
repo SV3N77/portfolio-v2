@@ -162,8 +162,8 @@
           }
         ],
         "body": {
-          "raw": "\nThis portfolio is an updated version of my previous portfolio using a more modern framework. It was an amazing\nexperience using content layer to input data to my projects. To add a new project to this would be simple to\njust make a new markdown file. This is a major upgrade from my previous project which used HTML and CSS.\n",
-          "html": "<p>This portfolio is an updated version of my previous portfolio using a more modern framework. It was an amazing\nexperience using content layer to input data to my projects. To add a new project to this would be simple to\njust make a new markdown file. This is a major upgrade from my previous project which used HTML and CSS.</p>"
+          "raw": "\nThis portfolio is an updated version of my previous portfolio using a more modern framework. It was an amazing\nexperience using content layer to input data to my projects. To add a new project to this would be simple to\njust make a new markdown file. This is a major upgrade from my previous project which used HTML and CSS where\nI just added html each time I needed to add a new project.\n\nI plan to update this portfolio for any future projects I might pursue.\n",
+          "html": "<p>This portfolio is an updated version of my previous portfolio using a more modern framework. It was an amazing\nexperience using content layer to input data to my projects. To add a new project to this would be simple to\njust make a new markdown file. This is a major upgrade from my previous project which used HTML and CSS where\nI just added html each time I needed to add a new project.</p>\n<p>I plan to update this portfolio for any future projects I might pursue.</p>"
         },
         "_id": "portfolio-v2.md",
         "_raw": {
@@ -176,7 +176,7 @@
         "type": "Project",
         "url": "/projects/portfolio-v2"
       },
-      "documentHash": "1665989119121",
+      "documentHash": "1666872254731",
       "hasWarnings": false,
       "documentTypeName": "Project"
     },
