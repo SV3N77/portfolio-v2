@@ -6,7 +6,11 @@ function Header() {
       <nav className="container mx-auto flex flex-col items-center justify-center gap-4 text-lg text-white md:flex-row">
         <Link href="/">
           <a>
-            <img src="/images/icons/Ramen.ico" alt="Ramen" />
+            <img
+              src="/images/icons/Ramen.ico"
+              alt="Ramen"
+              className="transition hover:scale-125"
+            />
           </a>
         </Link>
         <h1 className="grow text-3xl font-semibold">Danny Jiang</h1>

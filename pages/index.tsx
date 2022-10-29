@@ -44,7 +44,7 @@ function Home({ projects }: PageProps) {
                 <div className="mt-14 flex flex-col gap-4 text-lg md:flex-row">
                   <Link href="https://github.com/SV3N77">
                     <a>
-                      <div className="flex items-center justify-center gap-1 rounded-full bg-black px-3 py-2 text-white">
+                      <div className="flex items-center justify-center gap-1 rounded-full bg-black px-3 py-2 text-white transition hover:scale-110">
                         <FaGithubAlt />
                         Github
                       </div>
@@ -52,7 +52,7 @@ function Home({ projects }: PageProps) {
                   </Link>
                   <Link href="www.linkedin.com/in/danny-jiang2">
                     <a>
-                      <div className="flex items-center justify-center gap-1 rounded-full bg-[#0072b1] px-3 py-2 text-white ">
+                      <div className="flex items-center justify-center gap-1 rounded-full bg-[#0072b1] px-3 py-2 text-white transition hover:scale-110">
                         <FaLinkedin />
                         Linkedin
                       </div>
@@ -65,7 +65,7 @@ function Home({ projects }: PageProps) {
               <Image
                 src="/images/gifs/Computer.gif"
                 alt="computer"
-                className="aspect-square"
+                className="aspect-square transition hover:scale-110"
                 priority
                 width={400}
                 height={400}
@@ -82,7 +82,7 @@ function Home({ projects }: PageProps) {
               <img
                 src="/images/gifs/Kenji-Idle.gif"
                 alt="game"
-                className="aspect-square bg-cover"
+                className="aspect-square bg-cover transition hover:scale-110"
               />
 
               <p className="md:max-w-2xl">
@@ -97,7 +97,7 @@ function Home({ projects }: PageProps) {
               <img
                 src="/images/gifs/WebDev.gif"
                 alt="web"
-                className="aspect-square"
+                className="aspect-square transition hover:scale-110"
               />
               <p className="md:max-w-2xl">
                 I enjoy learning new things and solving problems. I&apos;m
@@ -141,7 +141,7 @@ function ProjectCards({
   return (
     <Link href={url}>
       <a>
-        <div className="flex flex-col overflow-hidden rounded-lg bg-indigo-100 text-sm shadow-lg  md:h-60 md:flex-row">
+        <div className="flex flex-col overflow-hidden rounded-lg bg-indigo-100 text-sm shadow-lg transition hover:-translate-y-4 md:h-60 md:flex-row">
           <div className="aspect-video md:aspect-square md:w-auto">
             <img
               src={images?.at(0)?.src}
