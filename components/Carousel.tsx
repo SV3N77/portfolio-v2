@@ -31,7 +31,7 @@ function Carousel({ options, images }: CarouselProps) {
             >
               <Image
                 alt="Carousel Image"
-                className="rounded-md"
+                className="w-full rounded-md object-contain"
                 priority
                 style={{ aspectRatio: `${16}/${9}` }}
                 src={image.src}
