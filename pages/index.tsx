@@ -50,7 +50,7 @@ function Home({ projects }: PageProps) {
                       </div>
                     </a>
                   </Link>
-                  <Link href="www.linkedin.com/in/danny-jiang2">
+                  <Link href="https://www.linkedin.com/in/danny-jiang2">
                     <a>
                       <div className="flex items-center justify-center gap-1 rounded-full bg-[#0072b1] px-3 py-2 text-white transition hover:scale-110">
                         <FaLinkedin />
