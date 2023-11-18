@@ -35,8 +35,7 @@ function Home({ projects }: PageProps) {
               </h1>
               <div className="flex flex-col items-center gap-4 md:items-start">
                 <p>
-                  Hi there! I&apos;m Danny Jiang, a passionate web/game
-                  developer.
+                  Hi there! I&apos;m Danny Jiang, a passionate web developer.
                   <br />
                   I&apos;m a graduate at the Unversity of Technology Sydney
                   studied a Bachelor of Science in Games Development.
@@ -76,8 +75,21 @@ function Home({ projects }: PageProps) {
 
           <div className="my-28 flex flex-col gap-8 text-center text-sm md:text-left md:text-lg">
             <h1 className="text-3xl font-bold text-indigo-600 md:text-5xl">
-              About
+              My Interests
             </h1>
+            <div className="flex flex-col items-center justify-around md:flex-row">
+              <img
+                src="/images/gifs/WebDev.gif"
+                alt="web"
+                className="aspect-square transition hover:scale-110"
+              />
+              <p className="md:max-w-2xl">
+                I enjoy learning new things and solving problems. I&apos;m
+                always looking for new ways to improve my coding skills.
+                I&apos;m interested in front-end web development. I really enjoy
+                making the website look asethetic as possible.
+              </p>
+            </div>
             <div className="flex flex-col items-center justify-around md:flex-row">
               <img
                 src="/images/gifs/Kenji-Idle.gif"
@@ -91,19 +103,6 @@ function Home({ projects }: PageProps) {
                 skills. I&apos;m mostly interested in the design aspect of game
                 development and have been improving these skills with some of
                 the projects I have done.
-              </p>
-            </div>
-            <div className="flex flex-col items-center justify-around md:flex-row">
-              <img
-                src="/images/gifs/WebDev.gif"
-                alt="web"
-                className="aspect-square transition hover:scale-110"
-              />
-              <p className="md:max-w-2xl">
-                I enjoy learning new things and solving problems. I&apos;m
-                always looking for new ways to improve my coding skills.
-                I&apos;m interested in front-end web development. I really enjoy
-                making the website look asethetic as possible.
               </p>
             </div>
           </div>
