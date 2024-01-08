@@ -35,7 +35,7 @@ function Home({ projects }: PageProps) {
               </h1>
               <div className="flex flex-col items-center gap-4 md:items-start">
                 <p>
-                  Hi there! I&apos;m Danny Jiang, a passionate web developer.
+                  Hi there! I&apos;m Danny Jiang, a passionate developer.
                   <br />
                   I&apos;m a graduate at the Unversity of Technology Sydney
                   studied a Bachelor of Science in Games Development.
