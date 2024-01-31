@@ -17,13 +17,6 @@ function Header() {
         <Link href="/">
           <a>Home</a>
         </Link>
-        <a
-          href="/files/Danny_Jiang_resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Resume
-        </a>
         <Link href="mailto:danny.jiang177@gamil.com">
           <a>Contact</a>
         </Link>
