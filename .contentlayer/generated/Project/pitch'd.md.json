@@ -1,0 +1,50 @@
+{
+  "title": "Pitch'd",
+  "date": "2024-08-21T00:00:00.000Z",
+  "tags": [
+    "NextJS",
+    "TailwindCSS",
+    "Typescript",
+    "AWS S3"
+  ],
+  "shortDescription": "An jobs platform to help you find jobs easily.",
+  "links": [
+    {
+      "url": "https://www.pitchd.tech/about",
+      "github": false,
+      "type": "Link",
+      "_raw": {}
+    }
+  ],
+  "images": [
+    {
+      "src": "/images/projects/pitch'd/01.png",
+      "width": 1720,
+      "height": 1319
+    },
+    {
+      "src": "/images/projects/pitch'd/02.png",
+      "width": 1703,
+      "height": 1313
+    },
+    {
+      "src": "/images/projects/pitch'd/03.png",
+      "width": 1700,
+      "height": 1317
+    }
+  ],
+  "body": {
+    "raw": "\nAt Pitch'd, I worked as a frontend developer intern, building a jobs platform to help users find jobs easily. I was responsible for developing the user interface, ensuring a seamless user experience, and implementing features such as search, filters, and sorting.I developed key pages, including the homepage, jobs page, and application, and onboarding, with a focus on creating a seamless user experience and ensuring accessibility. Using the React framework Next.js, I built server-side rendered pages to improve performance and SEO. For styling, I implemented Tailwind CSS, which allowed for rapid development of responsive designs that provided a consistent look and feel across all devices. I also integrated AWS services, deploying static assets to S3 and utilizing CloudFront as a content delivery network (CDN) to enhance performance and reduce latency. Additionally, I applied TypeScript to improve code quality and maintainability, leveraging strong typing to minimize runtime errors.\n\n### Features\n\n- Search and filter jobs\n- Responsive design with Tailwind CSS\n- Server-side rendering with Next.js\n- AWS S3 for static asset hosting\n- CloudFront for content delivery network (CDN)\n- TypeScript for code quality and maintainability\n\n### Technologies Used\n\n- React framework Next.js for server-side rendering\n- Tailwind CSS for rapid and responsive design\n- AWS S3 for static asset hosting\n- CloudFront for content delivery network (CDN)\n- TypeScript for code quality and maintainability\n\n### Challenges Faced\n\n- Developing a user-friendly interface for the homepage, jobs page, and application, and onboarding.\n- Ensuring a seamless user experience and accessibility.\n- Implementing search, filters, and sorting features.\n- Integrating AWS services for static asset hosting and content delivery network (CDN).\n- Applying TypeScript for code quality and maintainability.\n\nOverall, my experience at Pitch'd was a valuable learning opportunity, allowing me to develop my skills in frontend development, web design, and AWS services. I am grateful for the opportunity to work with a talented team and contribute to the growth of the company.\n",
+    "html": "<p>At Pitch'd, I worked as a frontend developer intern, building a jobs platform to help users find jobs easily. I was responsible for developing the user interface, ensuring a seamless user experience, and implementing features such as search, filters, and sorting.I developed key pages, including the homepage, jobs page, and application, and onboarding, with a focus on creating a seamless user experience and ensuring accessibility. Using the React framework Next.js, I built server-side rendered pages to improve performance and SEO. For styling, I implemented Tailwind CSS, which allowed for rapid development of responsive designs that provided a consistent look and feel across all devices. I also integrated AWS services, deploying static assets to S3 and utilizing CloudFront as a content delivery network (CDN) to enhance performance and reduce latency. Additionally, I applied TypeScript to improve code quality and maintainability, leveraging strong typing to minimize runtime errors.</p>\n<h3>Features</h3>\n<ul>\n<li>Search and filter jobs</li>\n<li>Responsive design with Tailwind CSS</li>\n<li>Server-side rendering with Next.js</li>\n<li>AWS S3 for static asset hosting</li>\n<li>CloudFront for content delivery network (CDN)</li>\n<li>TypeScript for code quality and maintainability</li>\n</ul>\n<h3>Technologies Used</h3>\n<ul>\n<li>React framework Next.js for server-side rendering</li>\n<li>Tailwind CSS for rapid and responsive design</li>\n<li>AWS S3 for static asset hosting</li>\n<li>CloudFront for content delivery network (CDN)</li>\n<li>TypeScript for code quality and maintainability</li>\n</ul>\n<h3>Challenges Faced</h3>\n<ul>\n<li>Developing a user-friendly interface for the homepage, jobs page, and application, and onboarding.</li>\n<li>Ensuring a seamless user experience and accessibility.</li>\n<li>Implementing search, filters, and sorting features.</li>\n<li>Integrating AWS services for static asset hosting and content delivery network (CDN).</li>\n<li>Applying TypeScript for code quality and maintainability.</li>\n</ul>\n<p>Overall, my experience at Pitch'd was a valuable learning opportunity, allowing me to develop my skills in frontend development, web design, and AWS services. I am grateful for the opportunity to work with a talented team and contribute to the growth of the company.</p>"
+  },
+  "_id": "pitch'd.md",
+  "_raw": {
+    "sourceFilePath": "pitch'd.md",
+    "sourceFileName": "pitch'd.md",
+    "sourceFileDir": ".",
+    "contentType": "markdown",
+    "flattenedPath": "pitch'd"
+  },
+  "type": "Project",
+  "url": "/projects/pitch'd"
+}
