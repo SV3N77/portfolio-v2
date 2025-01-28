@@ -49,7 +49,7 @@ export type Link = {
   _id: string
   _raw: Local.RawDocumentData
   type: 'Link'
-  url: string
+  url?: string | undefined
   github: boolean
 
 }  
@@ -65,6 +65,11 @@ export type DocumentTypeNames = 'Project'
 export type NestedTypes = Image | Link
 export type NestedTypeNames = 'Image' | 'Link'
 
+export type DataExports = {
+  allDocuments: DocumentTypes[]
+  allProjects: Project[]
+}
+
 
 export interface ContentlayerGenTypes {
   documentTypes: DocumentTypes
@@ -74,6 +79,7 @@ export interface ContentlayerGenTypes {
   nestedTypeMap: NestedTypeMap
   nestedTypeNames: NestedTypeNames
   allTypeNames: AllTypeNames
+  dataExports: DataExports
 }
 
 declare global {

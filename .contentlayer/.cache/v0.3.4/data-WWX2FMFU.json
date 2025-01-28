@@ -1,0 +1,422 @@
+{
+  "cacheItemsMap": {
+    "anime-db.md": {
+      "document": {
+        "title": "AnimeDB",
+        "date": "2022-09-20T00:00:00.000Z",
+        "tags": [
+          "NextJS",
+          "TailwindCSS",
+          "React Query",
+          "Typescript",
+          "Vercel"
+        ],
+        "shortDescription": "An anime database where you can search for anime and get details with related franchises.",
+        "links": [
+          {
+            "url": "https://github.com/SV3N77/animedatabase",
+            "github": true,
+            "type": "Link",
+            "_raw": {}
+          }
+        ],
+        "images": [
+          {
+            "src": "/images/projects/anime-db/01.png",
+            "width": 1962,
+            "height": 1168
+          },
+          {
+            "src": "/images/projects/anime-db/02.png",
+            "width": 1964,
+            "height": 1165
+          },
+          {
+            "src": "/images/projects/anime-db/03.png",
+            "width": 1957,
+            "height": 1167
+          },
+          {
+            "src": "/images/projects/anime-db/04.png",
+            "width": 1960,
+            "height": 1167
+          },
+          {
+            "src": "/images/projects/anime-db/05.png",
+            "width": 1965,
+            "height": 1170
+          }
+        ],
+        "body": {
+          "raw": "\nAnimeDB was one my most recent project, I worked upon, using my experience from my previous projects and learning to use a public API.\nUtilising the public Kistu.io API, this project displays the various details of anime and manga.\n\n### Features\n\n- Search for anime titles\n- Shows most trending anime\n- Click into anime to show more details\n- Shows related franchises of anime/manga\n- Shows all characters in anime/manga\n\nAnimeDB was an amazing project to do as this project allowed me to learn to use a public API. In this project I used react-query and its ability\nto query cache so that if the same query is searched then it doesn't need to fetch another time. I also implemented infinite scroll with both react-query\nand NextJS getStaticProps so that if you scroll down to the bottom it will load more results.\n\nThe AnimeDB was an amazing project which further enhanced my web development knowledge and was enjoyable to create. I am most proud of this project\nas it shows the accumalation of my knowledge in web development.\n",
+          "html": "<p>AnimeDB was one my most recent project, I worked upon, using my experience from my previous projects and learning to use a public API.\nUtilising the public Kistu.io API, this project displays the various details of anime and manga.</p>\n<h3>Features</h3>\n<ul>\n<li>Search for anime titles</li>\n<li>Shows most trending anime</li>\n<li>Click into anime to show more details</li>\n<li>Shows related franchises of anime/manga</li>\n<li>Shows all characters in anime/manga</li>\n</ul>\n<p>AnimeDB was an amazing project to do as this project allowed me to learn to use a public API. In this project I used react-query and its ability\nto query cache so that if the same query is searched then it doesn't need to fetch another time. I also implemented infinite scroll with both react-query\nand NextJS getStaticProps so that if you scroll down to the bottom it will load more results.</p>\n<p>The AnimeDB was an amazing project which further enhanced my web development knowledge and was enjoyable to create. I am most proud of this project\nas it shows the accumalation of my knowledge in web development.</p>"
+        },
+        "_id": "anime-db.md",
+        "_raw": {
+          "sourceFilePath": "anime-db.md",
+          "sourceFileName": "anime-db.md",
+          "sourceFileDir": ".",
+          "contentType": "markdown",
+          "flattenedPath": "anime-db"
+        },
+        "type": "Project",
+        "url": "/projects/anime-db"
+      },
+      "documentHash": "1665982425272",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "elden-ring-attribute-calc.md": {
+      "document": {
+        "title": "Elden Ring Attribute Calculator",
+        "date": "2022-08-21T00:00:00.000Z",
+        "tags": [
+          "NextJS",
+          "TailwindCSS",
+          "Typescript"
+        ],
+        "shortDescription": "An Elden ring attribute calculator.",
+        "links": [
+          {
+            "url": "https://github.com/SV3N77/attributecalc",
+            "github": true,
+            "type": "Link",
+            "_raw": {}
+          }
+        ],
+        "images": [
+          {
+            "src": "/images/projects/elden-ring-attribute-calc/01.png",
+            "width": 1972,
+            "height": 1174
+          },
+          {
+            "src": "/images/projects/elden-ring-attribute-calc/02.png",
+            "width": 1001,
+            "height": 692
+          },
+          {
+            "src": "/images/projects/elden-ring-attribute-calc/03.png",
+            "width": 1972,
+            "height": 1180
+          },
+          {
+            "src": "/images/projects/elden-ring-attribute-calc/04.png",
+            "width": 1957,
+            "height": 1174
+          }
+        ],
+        "body": {
+          "raw": "\nElden Ring attribute calculator was my first introduction to using typescript with NextJS and TailwindCSS.\n\n### Features\n\n- Change classes\n- Addition/Subtraction of attributes\n- Shows how many runes are needed to level\n\nIn this project I learnt to use typescript in conjunction with NextJS. In this project I used a json file to\nstore each class and its starting values.\n",
+          "html": "<p>Elden Ring attribute calculator was my first introduction to using typescript with NextJS and TailwindCSS.</p>\n<h3>Features</h3>\n<ul>\n<li>Change classes</li>\n<li>Addition/Subtraction of attributes</li>\n<li>Shows how many runes are needed to level</li>\n</ul>\n<p>In this project I learnt to use typescript in conjunction with NextJS. In this project I used a json file to\nstore each class and its starting values.</p>"
+        },
+        "_id": "elden-ring-attribute-calc.md",
+        "_raw": {
+          "sourceFilePath": "elden-ring-attribute-calc.md",
+          "sourceFileName": "elden-ring-attribute-calc.md",
+          "sourceFileDir": ".",
+          "contentType": "markdown",
+          "flattenedPath": "elden-ring-attribute-calc"
+        },
+        "type": "Project",
+        "url": "/projects/elden-ring-attribute-calc"
+      },
+      "documentHash": "1665981118215",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "pitch_d.md": {
+      "document": {
+        "title": "Pitch'd",
+        "date": "2024-08-21T00:00:00.000Z",
+        "tags": [
+          "NextJS",
+          "TailwindCSS",
+          "Typescript",
+          "AWS S3"
+        ],
+        "shortDescription": "An jobs platform to help you find jobs easily.",
+        "links": [
+          {
+            "url": "",
+            "github": false,
+            "type": "Link",
+            "_raw": {}
+          }
+        ],
+        "images": [
+          {
+            "src": "/images/projects/pitch_d/01.png",
+            "width": 1720,
+            "height": 1319
+          },
+          {
+            "src": "/images/projects/pitch_d/02.png",
+            "width": 1703,
+            "height": 1313
+          },
+          {
+            "src": "/images/projects/pitch_d/03.png",
+            "width": 1700,
+            "height": 1317
+          }
+        ],
+        "body": {
+          "raw": "\nAt Pitch'd, I worked as a frontend developer intern, building a jobs platform to help users find jobs easily. I was responsible for developing the user interface, ensuring a seamless user experience, and implementing features such as search, filters, and sorting.I developed key pages, including the homepage, jobs page, and application, and onboarding, with a focus on creating a seamless user experience and ensuring accessibility. Using the React framework Next.js, I built server-side rendered pages to improve performance and SEO. For styling, I implemented Tailwind CSS, which allowed for rapid development of responsive designs that provided a consistent look and feel across all devices. I also integrated AWS services, deploying static assets to S3 and utilizing CloudFront as a content delivery network (CDN) to enhance performance and reduce latency. Additionally, I applied TypeScript to improve code quality and maintainability, leveraging strong typing to minimize runtime errors.\n\n### Features\n\n- Search and filter jobs\n- Responsive design with Tailwind CSS\n- Server-side rendering with Next.js\n- AWS S3 for static asset hosting\n- CloudFront for content delivery network (CDN)\n- TypeScript for code quality and maintainability\n\n### Technologies Used\n\n- React framework Next.js for server-side rendering\n- Tailwind CSS for rapid and responsive design\n- AWS S3 for static asset hosting\n- CloudFront for content delivery network (CDN)\n- TypeScript for code quality and maintainability\n\n### Challenges Faced\n\n- Developing a user-friendly interface for the homepage, jobs page, and application, and onboarding.\n- Ensuring a seamless user experience and accessibility.\n- Implementing search, filters, and sorting features.\n- Integrating AWS services for static asset hosting and content delivery network (CDN).\n- Applying TypeScript for code quality and maintainability.\n\nOverall, my experience at Pitch'd was a valuable learning opportunity, allowing me to develop my skills in frontend development, web design, and AWS services. I am grateful for the opportunity to work with a talented team and contribute to the growth of the company.\n",
+          "html": "<p>At Pitch'd, I worked as a frontend developer intern, building a jobs platform to help users find jobs easily. I was responsible for developing the user interface, ensuring a seamless user experience, and implementing features such as search, filters, and sorting.I developed key pages, including the homepage, jobs page, and application, and onboarding, with a focus on creating a seamless user experience and ensuring accessibility. Using the React framework Next.js, I built server-side rendered pages to improve performance and SEO. For styling, I implemented Tailwind CSS, which allowed for rapid development of responsive designs that provided a consistent look and feel across all devices. I also integrated AWS services, deploying static assets to S3 and utilizing CloudFront as a content delivery network (CDN) to enhance performance and reduce latency. Additionally, I applied TypeScript to improve code quality and maintainability, leveraging strong typing to minimize runtime errors.</p>\n<h3>Features</h3>\n<ul>\n<li>Search and filter jobs</li>\n<li>Responsive design with Tailwind CSS</li>\n<li>Server-side rendering with Next.js</li>\n<li>AWS S3 for static asset hosting</li>\n<li>CloudFront for content delivery network (CDN)</li>\n<li>TypeScript for code quality and maintainability</li>\n</ul>\n<h3>Technologies Used</h3>\n<ul>\n<li>React framework Next.js for server-side rendering</li>\n<li>Tailwind CSS for rapid and responsive design</li>\n<li>AWS S3 for static asset hosting</li>\n<li>CloudFront for content delivery network (CDN)</li>\n<li>TypeScript for code quality and maintainability</li>\n</ul>\n<h3>Challenges Faced</h3>\n<ul>\n<li>Developing a user-friendly interface for the homepage, jobs page, and application, and onboarding.</li>\n<li>Ensuring a seamless user experience and accessibility.</li>\n<li>Implementing search, filters, and sorting features.</li>\n<li>Integrating AWS services for static asset hosting and content delivery network (CDN).</li>\n<li>Applying TypeScript for code quality and maintainability.</li>\n</ul>\n<p>Overall, my experience at Pitch'd was a valuable learning opportunity, allowing me to develop my skills in frontend development, web design, and AWS services. I am grateful for the opportunity to work with a talented team and contribute to the growth of the company.</p>"
+        },
+        "_id": "pitch_d.md",
+        "_raw": {
+          "sourceFilePath": "pitch_d.md",
+          "sourceFileName": "pitch_d.md",
+          "sourceFileDir": ".",
+          "contentType": "markdown",
+          "flattenedPath": "pitch_d"
+        },
+        "type": "Project",
+        "url": "/projects/pitch_d"
+      },
+      "documentHash": "1738031768361",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "portfolio-v2.md": {
+      "document": {
+        "title": "Portfolio",
+        "date": "2022-10-21T00:00:00.000Z",
+        "tags": [
+          "NextJS",
+          "TailwindCSS",
+          "Content Layer",
+          "Vercel"
+        ],
+        "shortDescription": "A portfolio for all my work.",
+        "links": [
+          {
+            "url": "https://github.com/SV3N77/portfolio-v2",
+            "github": true,
+            "type": "Link",
+            "_raw": {}
+          }
+        ],
+        "images": [
+          {
+            "src": "/images/projects/portfolio-v2/01.png",
+            "width": 1966,
+            "height": 1165
+          },
+          {
+            "src": "/images/projects/portfolio-v2/02.png",
+            "width": 1962,
+            "height": 1171
+          },
+          {
+            "src": "/images/projects/portfolio-v2/03.png",
+            "width": 391,
+            "height": 838
+          }
+        ],
+        "body": {
+          "raw": "\nThis portfolio is an updated version of my previous portfolio using a more modern framework. I wanted to update\nmy portfolio with an updated version to showcase my skill in front-end web development. It was an amazing experience\nusing content layer to input data to my projects. To add a new project to this would be simple to do just make a new\nmarkdown file. This is a major upgrade from my previous project which used HTML and CSS where I just added html each\ntime I needed to add a new project.\n\nI plan to update this portfolio for any future projects I might pursue.\n",
+          "html": "<p>This portfolio is an updated version of my previous portfolio using a more modern framework. I wanted to update\nmy portfolio with an updated version to showcase my skill in front-end web development. It was an amazing experience\nusing content layer to input data to my projects. To add a new project to this would be simple to do just make a new\nmarkdown file. This is a major upgrade from my previous project which used HTML and CSS where I just added html each\ntime I needed to add a new project.</p>\n<p>I plan to update this portfolio for any future projects I might pursue.</p>"
+        },
+        "_id": "portfolio-v2.md",
+        "_raw": {
+          "sourceFilePath": "portfolio-v2.md",
+          "sourceFileName": "portfolio-v2.md",
+          "sourceFileDir": ".",
+          "contentType": "markdown",
+          "flattenedPath": "portfolio-v2"
+        },
+        "type": "Project",
+        "url": "/projects/portfolio-v2"
+      },
+      "documentHash": "1667018889259",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "simple-blog-site.md": {
+      "document": {
+        "title": "Simple Blog Site",
+        "date": "2022-07-21T00:00:00.000Z",
+        "tags": [
+          "NextJS",
+          "TailwindCSS",
+          "React Query",
+          "Firebase",
+          "Vercel"
+        ],
+        "shortDescription": "A simple blog app where you can add, edit and delete blog posts with images.",
+        "links": [
+          {
+            "url": "https://github.com/SV3N77/simpleblogsite",
+            "github": true,
+            "type": "Link",
+            "_raw": {}
+          }
+        ],
+        "images": [
+          {
+            "src": "/images/projects/simple-blog-site/01.png",
+            "width": 1952,
+            "height": 1167
+          },
+          {
+            "src": "/images/projects/simple-blog-site/02.png",
+            "width": 1966,
+            "height": 1168
+          },
+          {
+            "src": "/images/projects/simple-blog-site/03.png",
+            "width": 1950,
+            "height": 1166
+          }
+        ],
+        "body": {
+          "raw": "\nThis simple blog site was my introduction to learning and utilising more modern web development frameworks and techniques.\nIt was my first time using NextJS front-end and firebase backend.\n\n### Features\n\n- Add Posts with images\n- Delete Posts\n- Edit Posts\n- Refetch updated Posts\n\nThis blog site was an amazing project for me to learn to develop using a more modern web development framework. I learnt\nhow to file upload to a firebase database and fetch the data to display it on the home page. I used react-query to fetch\nthe data from the firebase database since there is the ability to invalidate data and refectch every couple of seconds.\n",
+          "html": "<p>This simple blog site was my introduction to learning and utilising more modern web development frameworks and techniques.\nIt was my first time using NextJS front-end and firebase backend.</p>\n<h3>Features</h3>\n<ul>\n<li>Add Posts with images</li>\n<li>Delete Posts</li>\n<li>Edit Posts</li>\n<li>Refetch updated Posts</li>\n</ul>\n<p>This blog site was an amazing project for me to learn to develop using a more modern web development framework. I learnt\nhow to file upload to a firebase database and fetch the data to display it on the home page. I used react-query to fetch\nthe data from the firebase database since there is the ability to invalidate data and refectch every couple of seconds.</p>"
+        },
+        "_id": "simple-blog-site.md",
+        "_raw": {
+          "sourceFilePath": "simple-blog-site.md",
+          "sourceFileName": "simple-blog-site.md",
+          "sourceFileDir": ".",
+          "contentType": "markdown",
+          "flattenedPath": "simple-blog-site"
+        },
+        "type": "Project",
+        "url": "/projects/simple-blog-site"
+      },
+      "documentHash": "1665974430045",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "todo-app.md": {
+      "document": {
+        "title": "Todo App",
+        "date": "2022-06-21T00:00:00.000Z",
+        "tags": [
+          "HTML",
+          "React",
+          "TailwindCSS",
+          "Express",
+          "React Query",
+          "HeadlessUI"
+        ],
+        "shortDescription": "A simple todo app where you can add, edit and delete todos.",
+        "links": [
+          {
+            "url": "https://github.com/SV3N77/todolist",
+            "github": true,
+            "type": "Link",
+            "_raw": {}
+          }
+        ],
+        "images": [
+          {
+            "src": "/images/projects/todo-app/01.png",
+            "width": 1969,
+            "height": 1168
+          },
+          {
+            "src": "/images/projects/todo-app/02.png",
+            "width": 1971,
+            "height": 1165
+          },
+          {
+            "src": "/images/projects/todo-app/03.png",
+            "width": 1967,
+            "height": 1170
+          }
+        ],
+        "body": {
+          "raw": "\nTodo app was my first leap into learning and utilising more modern libraries for my web development journey.\n\n### Features\n\n- Add Todos\n- Delete Todos\n- Edit Todos\n- Refetch updated Todos\n\nTodo app was a great introduction into using more modern libraries in web development. In this project I had\nlearnt how to fetch data from an API and display that data using react-query and its ability to refrsh data.\nI learnt to utilise an express backend with a json file as the database. I also used HeadlessUI to create the\nadd task modal.\n",
+          "html": "<p>Todo app was my first leap into learning and utilising more modern libraries for my web development journey.</p>\n<h3>Features</h3>\n<ul>\n<li>Add Todos</li>\n<li>Delete Todos</li>\n<li>Edit Todos</li>\n<li>Refetch updated Todos</li>\n</ul>\n<p>Todo app was a great introduction into using more modern libraries in web development. In this project I had\nlearnt how to fetch data from an API and display that data using react-query and its ability to refrsh data.\nI learnt to utilise an express backend with a json file as the database. I also used HeadlessUI to create the\nadd task modal.</p>"
+        },
+        "_id": "todo-app.md",
+        "_raw": {
+          "sourceFilePath": "todo-app.md",
+          "sourceFileName": "todo-app.md",
+          "sourceFileDir": ".",
+          "contentType": "markdown",
+          "flattenedPath": "todo-app"
+        },
+        "type": "Project",
+        "url": "/projects/todo-app"
+      },
+      "documentHash": "1665964792255",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "umbrellurai.md": {
+      "document": {
+        "title": "Umbrellurai",
+        "date": "2021-06-21T00:00:00.000Z",
+        "tags": [
+          "Unity",
+          "C#",
+          "Aesprite",
+          "Pixel Art"
+        ],
+        "shortDescription": "A side-scrolling Metroidvania style game where the player controls an umbrella-wielding samurai.",
+        "links": [
+          {
+            "url": "https://sveen77.itch.io/umbrellurai",
+            "github": false,
+            "type": "Link",
+            "_raw": {}
+          }
+        ],
+        "images": [
+          {
+            "src": "/images/projects/umbrellurai/01.png",
+            "width": 1260,
+            "height": 1000
+          },
+          {
+            "src": "/images/projects/umbrellurai/02.png",
+            "width": 1280,
+            "height": 1280
+          },
+          {
+            "src": "/images/projects/umbrellurai/03.png",
+            "width": 2560,
+            "height": 1440
+          },
+          {
+            "src": "/images/projects/umbrellurai/04.png",
+            "width": 2560,
+            "height": 1440
+          },
+          {
+            "src": "/images/projects/umbrellurai/05.png",
+            "width": 2560,
+            "height": 1440
+          },
+          {
+            "src": "/images/projects/umbrellurai/06.png",
+            "width": 2560,
+            "height": 1440
+          }
+        ],
+        "body": {
+          "raw": "\nUmbrellurai is a side-scrolling Metroidvania style game where the player controls an umbrella-wielding samurai. It was\ncreated for 'Game Studio 1' subject at UTS with a small team of 4.\n\n#### For this project I was tasked in:\n\n- #### Overseeing the project\n  Setting up sprints, meetings and proofing the game design/code.\n- #### Game Design\n  Helped with the design of the game, such as the levels, art and mechanics.\n- #### Game Art\n  I made/designed all of the game art and animated each of the characters.\n\nUmbrellurai was an amazing project which further extended my game development and project management knowledge. My role\nin this project was the game design lead. In this project we had developed a great pace utilising the Agile methodology\nduring development. I made and designed all of the game art using Aesprite which is a tool for making pixel art and animations.\n\nIn addition to the techinical knowledge, Umbrellurai had helped me develop my interpersonal skills with communicating with my\nteam. I was proud of this project and what we had achieved in making the game.\n",
+          "html": "<p>Umbrellurai is a side-scrolling Metroidvania style game where the player controls an umbrella-wielding samurai. It was\ncreated for 'Game Studio 1' subject at UTS with a small team of 4.</p>\n<h4>For this project I was tasked in:</h4>\n<ul>\n<li>\n<h4>Overseeing the project</h4>\nSetting up sprints, meetings and proofing the game design/code.</li>\n<li>\n<h4>Game Design</h4>\nHelped with the design of the game, such as the levels, art and mechanics.</li>\n<li>\n<h4>Game Art</h4>\nI made/designed all of the game art and animated each of the characters.</li>\n</ul>\n<p>Umbrellurai was an amazing project which further extended my game development and project management knowledge. My role\nin this project was the game design lead. In this project we had developed a great pace utilising the Agile methodology\nduring development. I made and designed all of the game art using Aesprite which is a tool for making pixel art and animations.</p>\n<p>In addition to the techinical knowledge, Umbrellurai had helped me develop my interpersonal skills with communicating with my\nteam. I was proud of this project and what we had achieved in making the game.</p>"
+        },
+        "_id": "umbrellurai.md",
+        "_raw": {
+          "sourceFilePath": "umbrellurai.md",
+          "sourceFileName": "umbrellurai.md",
+          "sourceFileDir": ".",
+          "contentType": "markdown",
+          "flattenedPath": "umbrellurai"
+        },
+        "type": "Project",
+        "url": "/projects/umbrellurai"
+      },
+      "documentHash": "1665969456715",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    }
+  }
+}
