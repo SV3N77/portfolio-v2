@@ -8,7 +8,7 @@ tags:
   - AWS S3
 shortDescription: An jobs platform to help you find jobs easily.
 links:
-  - url: "https://www.pitchd.tech/about"
+  - url: false
     github: false
 ---
 
