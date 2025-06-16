@@ -13,7 +13,7 @@ links:
     github: true
 ---
 
-AnimeDB was one my most recent project, I worked upon, using my experience from my previous projects and learning to use a public API.
+AnimeDB was one my recent project, I worked upon, using my experience from my previous projects and learning to use a public API.
 Utilising the public Kistu.io API, this project displays the various details of anime and manga.
 
 ### Features

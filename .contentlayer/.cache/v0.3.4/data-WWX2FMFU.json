@@ -48,8 +48,8 @@
           }
         ],
         "body": {
-          "raw": "\nAnimeDB was one my most recent project, I worked upon, using my experience from my previous projects and learning to use a public API.\nUtilising the public Kistu.io API, this project displays the various details of anime and manga.\n\n### Features\n\n- Search for anime titles\n- Shows most trending anime\n- Click into anime to show more details\n- Shows related franchises of anime/manga\n- Shows all characters in anime/manga\n\nAnimeDB was an amazing project to do as this project allowed me to learn to use a public API. In this project I used react-query and its ability\nto query cache so that if the same query is searched then it doesn't need to fetch another time. I also implemented infinite scroll with both react-query\nand NextJS getStaticProps so that if you scroll down to the bottom it will load more results.\n\nThe AnimeDB was an amazing project which further enhanced my web development knowledge and was enjoyable to create. I am most proud of this project\nas it shows the accumalation of my knowledge in web development.\n",
-          "html": "<p>AnimeDB was one my most recent project, I worked upon, using my experience from my previous projects and learning to use a public API.\nUtilising the public Kistu.io API, this project displays the various details of anime and manga.</p>\n<h3>Features</h3>\n<ul>\n<li>Search for anime titles</li>\n<li>Shows most trending anime</li>\n<li>Click into anime to show more details</li>\n<li>Shows related franchises of anime/manga</li>\n<li>Shows all characters in anime/manga</li>\n</ul>\n<p>AnimeDB was an amazing project to do as this project allowed me to learn to use a public API. In this project I used react-query and its ability\nto query cache so that if the same query is searched then it doesn't need to fetch another time. I also implemented infinite scroll with both react-query\nand NextJS getStaticProps so that if you scroll down to the bottom it will load more results.</p>\n<p>The AnimeDB was an amazing project which further enhanced my web development knowledge and was enjoyable to create. I am most proud of this project\nas it shows the accumalation of my knowledge in web development.</p>"
+          "raw": "\nAnimeDB was one my recent project, I worked upon, using my experience from my previous projects and learning to use a public API.\nUtilising the public Kistu.io API, this project displays the various details of anime and manga.\n\n### Features\n\n- Search for anime titles\n- Shows most trending anime\n- Click into anime to show more details\n- Shows related franchises of anime/manga\n- Shows all characters in anime/manga\n\nAnimeDB was an amazing project to do as this project allowed me to learn to use a public API. In this project I used react-query and its ability\nto query cache so that if the same query is searched then it doesn't need to fetch another time. I also implemented infinite scroll with both react-query\nand NextJS getStaticProps so that if you scroll down to the bottom it will load more results.\n\nThe AnimeDB was an amazing project which further enhanced my web development knowledge and was enjoyable to create. I am most proud of this project\nas it shows the accumalation of my knowledge in web development.\n",
+          "html": "<p>AnimeDB was one my recent project, I worked upon, using my experience from my previous projects and learning to use a public API.\nUtilising the public Kistu.io API, this project displays the various details of anime and manga.</p>\n<h3>Features</h3>\n<ul>\n<li>Search for anime titles</li>\n<li>Shows most trending anime</li>\n<li>Click into anime to show more details</li>\n<li>Shows related franchises of anime/manga</li>\n<li>Shows all characters in anime/manga</li>\n</ul>\n<p>AnimeDB was an amazing project to do as this project allowed me to learn to use a public API. In this project I used react-query and its ability\nto query cache so that if the same query is searched then it doesn't need to fetch another time. I also implemented infinite scroll with both react-query\nand NextJS getStaticProps so that if you scroll down to the bottom it will load more results.</p>\n<p>The AnimeDB was an amazing project which further enhanced my web development knowledge and was enjoyable to create. I am most proud of this project\nas it shows the accumalation of my knowledge in web development.</p>"
         },
         "_id": "anime-db.md",
         "_raw": {
@@ -62,7 +62,7 @@
         "type": "Project",
         "url": "/projects/anime-db"
       },
-      "documentHash": "1665982425272",
+      "documentHash": "1750047628980",
       "hasWarnings": false,
       "documentTypeName": "Project"
     },
@@ -122,6 +122,52 @@
         "url": "/projects/elden-ring-attribute-calc"
       },
       "documentHash": "1665981118215",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "mhwildsinfo.md": {
+      "document": {
+        "title": "MHWildsInfo (WIP)",
+        "date": "2025-04-30T14:00:00.000Z",
+        "tags": [
+          "NextJS",
+          "TailwindCSS",
+          "Shadcn ui",
+          "Typescript",
+          "Vercel"
+        ],
+        "shortDescription": "An information website for Monster Hunter Wilds.",
+        "links": [
+          {
+            "url": "https://github.com/SV3N77/mhwildsinfo",
+            "github": true,
+            "type": "Link",
+            "_raw": {}
+          }
+        ],
+        "images": [
+          {
+            "src": "/images/projects/mhwildsinfo/01.png",
+            "width": 800,
+            "height": 546
+          }
+        ],
+        "body": {
+          "raw": "\nOne of my most recent projects, I worked upon, using my experience from my previous projects and learning to use a public API. This\nproject is a website that displays information about Monster Hunter Wilds. It is a work in progress and will be updated as I learn more.\n\n### Features\n\n- Shows infomation about weapons and armors in the game.\n- Shows all of the items and consumables in the game.\n- Shows all of the monsters in the game.\n- Shows all of the decorations in the game.\n\nThis project was a great learning experience for me as I learned to use a public API. I also learned how to use the Shadcn UI library\nwhich is a great library for creating websites. I also learned how to use the TailwindCSS library which is a great library for styling websites.\n",
+          "html": "<p>One of my most recent projects, I worked upon, using my experience from my previous projects and learning to use a public API. This\nproject is a website that displays information about Monster Hunter Wilds. It is a work in progress and will be updated as I learn more.</p>\n<h3>Features</h3>\n<ul>\n<li>Shows infomation about weapons and armors in the game.</li>\n<li>Shows all of the items and consumables in the game.</li>\n<li>Shows all of the monsters in the game.</li>\n<li>Shows all of the decorations in the game.</li>\n</ul>\n<p>This project was a great learning experience for me as I learned to use a public API. I also learned how to use the Shadcn UI library\nwhich is a great library for creating websites. I also learned how to use the TailwindCSS library which is a great library for styling websites.</p>"
+        },
+        "_id": "mhwildsinfo.md",
+        "_raw": {
+          "sourceFilePath": "mhwildsinfo.md",
+          "sourceFileName": "mhwildsinfo.md",
+          "sourceFileDir": ".",
+          "contentType": "markdown",
+          "flattenedPath": "mhwildsinfo"
+        },
+        "type": "Project",
+        "url": "/projects/mhwildsinfo"
+      },
+      "documentHash": "1750048031760",
       "hasWarnings": false,
       "documentTypeName": "Project"
     },
